@@ -26,16 +26,20 @@ const defaultDatas = {
         }
       },
       nodeShape: 0,
-      width: 40,
-      height: 40,
-      r: 21
+      r: 40
     },
     {
       id: '002',
       label: '节点二',
+      font: {
+        // 字体
+        color: {
+          default: 'red',
+          selection: '#ffc70d'
+        }
+      },
       nodeShape: 0,
-      width: 50,
-      height: 50
+      r: 30
     },
     {
       id: '003',

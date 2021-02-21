@@ -23,8 +23,8 @@ class StraightEdge extends Edge {
     ctx.stroke()
     if (e.globalOptions.showEdge && e.label !== undefined && e.label !== null) {
       // this.arrow_line1(ctx, [e.source.x, e.source.y],[e.target.x,e.target.y],e)
+      this.drawLabel(ctx, e)
       this.arrow_line(ctx, e)
-      // this.drawLabel(ctx, e)
     }
     ctx.restore()
   }
@@ -53,7 +53,8 @@ class StraightEdge extends Edge {
       ctx.translate(cx, cy);
       ctx.rotate((degrees + 90) * Math.PI / 180)//加个180度，反过来
       ctx.translate(-cx, -cy);
-    } else {
+    }
+    else {
       ctx.translate(cx, cy);
       ctx.rotate((degrees - 90) * Math.PI / 180)//加个180度，反过来
       ctx.translate(-cx, -cy);
@@ -64,6 +65,7 @@ class StraightEdge extends Edge {
     ctx.textAlign = "center";
     ctx.textBaseline = 'middle'
     ctx.fillText(d.label, (x1 + x2) / 2, (y1 + y2) / 2)
+    ctx.translate(x2, y2);
     ctx.closePath()
     // ctx.beginPath() 
     // ctx.fillStyle="yellow"
@@ -93,18 +95,19 @@ class StraightEdge extends Edge {
     const x1 = e.source.x, y1 = e.source.y, x2 = e.target.x, y2 = e.target.y, m = e.target.x, n = e.target.y, r = e.target.r
     let arr = this.getInsertPointBetweenCircleAndLine(x1, y1, x2, y2, m, n, r)
     let degrees = this.getAngle(e.source.x, e.source.y, e.target.x, e.target.y);
-
     //参数说明 canvas的 id ，原点坐标  第一个端点的坐标，第二个端点的坐标
     var start = new Array(x1, y1);
     var end = new Array(x2, y2);
-    // ctx.beginPath()
     var ang = (end[0] - start[0]) / (end[1] - start[1]);
     ang = Math.atan(ang);
+    // ctx.beginPath()
     // 判断箭头是否在距离圆心的方向 数组有两项 0 和 1
-    if (degrees >= 0 && degrees < 180) {
-      ctx.translate(arr[1].x, arr[1].y);
-    } else {
-      ctx.translate(arr[0].x, arr[0].y);
+    if (arr.length) {
+      if (degrees >= 0 && degrees < 180) {
+        ctx.translate(arr[1].x, arr[1].y);
+      } else {
+        ctx.translate(arr[0].x, arr[0].y);
+      }
     }
     // 判断箭头的正反方向
     if (end[1] - start[1] >= 0) {
@@ -120,7 +123,7 @@ class StraightEdge extends Edge {
     ctx.lineTo(0, -5);
     ctx.stroke()
     // ctx.fill(); //箭头是个封闭图形
-    ctx.closePath()
+    // ctx.closePath()
   }
 
   getAngle(px, py, mx, my) {//获得人物中心和鼠标坐标连线，与y轴正半轴之间的夹角

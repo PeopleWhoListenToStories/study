@@ -8,7 +8,7 @@ import { fittingString } from "../Util/index";
 class CircleNode extends Node {
   constructor(body, data, globalOptions, options) {
     super(body, data, globalOptions, options);
-    this.r = this.iconRadius();
+    this.r = data.r || this.globalOptions.nodeSize; // 给圆赋值options 配置的半径
     this.nodeData = data;
   }
 

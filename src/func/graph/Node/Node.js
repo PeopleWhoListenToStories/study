@@ -7,7 +7,7 @@ import { Status } from '../Util/constant'
  * 节点基类
  */
 class Node {
-  constructor (body, data, globalOptions, options) { 
+  constructor(body, data, globalOptions, options) {
     this.id = data.id
     this.body = body
     this.globalOptions = globalOptions // 接收全局变量
@@ -16,9 +16,9 @@ class Node {
     this.type = data.type // 节点类型
     this.children = []
     this.nodeShape = data.nodeShape, // 节点类型
-    this.width = data.width, // 节点宽度
-    this.height = data.height, // 节点高度
-    this.x = data.x || void 0 // 坐标X
+      this.width = data.width, // 节点宽度
+      this.height = data.height, // 节点高度
+      this.x = data.x || void 0 // 坐标X
     this.y = data.y || void 0 // 坐标Y
     this.vx = data.vx || void 0 // X方向加速度
     this.vy = data.vy || void 0 // Y方向加速度
@@ -36,18 +36,21 @@ class Node {
    * 设置参数
    * @param {Object} options
    */
-  setOptions (options) {
+  setOptions(options) {
     this.options = Util.deepExtend(defaultNodeOption, options)
   }
 
   /**
    * 半径
    */
-  iconRadius () {
+  iconRadius() {
+    const d = this
+    const opt = d.options
+    console.log(opt, 'opt')
     return 20
   }
 
-  static iconRadius () {
+  static iconRadius() {
     return 20
   }
 
@@ -55,7 +58,7 @@ class Node {
    * 填充样式
    * @param {Object} ctx canvas上下文
    */
-  fillNodeStyle (ctx) {
+  fillNodeStyle(ctx) {
     const d = this
     const opt = d.options
     switch (d.status) {
@@ -75,7 +78,7 @@ class Node {
   /**
    * 初始化边界框
    */
-  initialBBox () {
+  initialBBox() {
     const d = this
     d.boundingBox.left = d.x - d.r
     d.boundingBox.right = d.x + d.r

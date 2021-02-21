@@ -93,9 +93,13 @@ class Operator {
     const initialAngle = Math.PI * (3 - Math.sqrt(5))
     for (let i = 0, n = nodes.length, node; i < n; ++i) {
       node = nodes[i]
+      let r = node.r === undefined ? this.options.nodeSize : node.r
+      // console.log(node, 'node')
       if (isNaN(node.x) || isNaN(node.y)) {
         if (parentNode != null && parentNode.id !== node.id) {
-          radius = Node.iconRadius() * Math.sqrt(i)
+          // console.log(nodes[i], this.options.nodeSize, '???')
+          // radius = Node.iconRadius() * Math.sqrt(i)
+          radius = r * Math.sqrt(i)
           angle = i * initialAngle
           node.x = parentNode.x + radius * Math.cos(angle)
           node.y = parentNode.y + radius * Math.sin(angle)
@@ -120,11 +124,11 @@ class Operator {
       const p = this.getNodeEntity(id)
       const newNode = this.nodeClass(this.body, p, this.options, this.body.nodeOptions[p.type] || {})
       // const newNode = this.nodeClass(this.body, p, this.options, this.body.data.nodes[i] || {})
-
       newNodes.push(newNode)
       this.body.nodeMaps[id] = newNode
     }
     this.body.transformData.nodes = nodes = [...nodes, ...newNodes]
+    // console.log('127...', this.body.transformData.nodes)
     // d3重新定位节点位置
     this.simulation.nodes(this.body.transformData.nodes)
     // 是否绘制
@@ -316,6 +320,9 @@ class Operator {
    * @param {Number} radius 节点半径
    */
   findNode(x, y, radius) {
+    // if (radius === undefined) {
+    //   radius = this.options.nodeSize
+    // }
     let i, dx, dy, d2, node, closest
     const nodes = this.body.transformData.viewNodes
     const n = nodes.length
@@ -441,11 +448,11 @@ class Operator {
    * 获取鼠标对应的节点对象
    * @param {Object} m 鼠标对象
    */
-  getMouseNode(m) {
+  getMouseNode(m, circleNode) {
     let d = null
     const point = { x: this.transformX(m[0]), y: this.transformY(m[1]) }
     // 点击了实体类节点
-    const node = this.findNode(point.x, point.y, Node.iconRadius())
+    const node = this.findNode(point.x, point.y, circleNode)
     if (node != null) {
       d = node
     }
@@ -470,8 +477,8 @@ class Operator {
    * 获取鼠标对应的对象
    * @param {Object} m 鼠标对象
    */
-  getMouseTargetObject(m) {
-    let d = this.getMouseNode(m)
+  getMouseTargetObject(m, circleNode) {
+    let d = this.getMouseNode(m, circleNode)
     if (d == null) {
       d = this.getMouseEdge(m)
     }
