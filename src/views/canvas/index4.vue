@@ -33,7 +33,7 @@ const defaultDatas = {
     {
       id: '002',
       label: '节点二',
-      nodeShape: 1,
+      nodeShape: 0,
       width: 50,
       height: 50
     },
@@ -47,7 +47,7 @@ const defaultDatas = {
     {
       id: '004',
       label: '节点四',
-      nodeShape: 1,
+      nodeShape: 0,
       width: 40,
       height: 40
     },

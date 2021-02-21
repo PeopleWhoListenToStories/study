@@ -345,10 +345,10 @@ class Operator {
    * @param {Array} nodes 需要筛选的节点数组
    */
   findRectNode(x, y, nodes) {
-    let arr = nodes.filter(v=> v.nodeShape === 1)
+    let arr = nodes.filter(v => v.nodeShape === 1)
     return arr.filter(n => {
-      let nW = n.width / 2 , nH = n.height / 2 ;
-      return n.x - nW - 3 <= parseInt(x) && n.y - nH - 3  <= parseInt(y) && n.x + nW + 2 >= parseInt(x) && n.y + nH + 1 >= parseInt(y)
+      let nW = n.width / 2, nH = n.height / 2;
+      return n.x - nW - 3 <= parseInt(x) && n.y - nH - 3 <= parseInt(y) && n.x + nW + 2 >= parseInt(x) && n.y + nH + 1 >= parseInt(y)
     })[0]
   }
 

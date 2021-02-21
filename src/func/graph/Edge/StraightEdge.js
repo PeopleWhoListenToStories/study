@@ -23,8 +23,8 @@ class StraightEdge extends Edge {
     ctx.stroke()
     if (e.globalOptions.showEdge && e.label !== undefined && e.label !== null) {
       // this.arrow_line1(ctx, [e.source.x, e.source.y],[e.target.x,e.target.y],e)
-      // this.arrow_line(ctx, e)
-      this.drawLabel(ctx, e)
+      this.arrow_line(ctx, e)
+      // this.drawLabel(ctx, e)
     }
     ctx.restore()
   }
@@ -92,15 +92,21 @@ class StraightEdge extends Edge {
   arrow_line(ctx, e) {
     const x1 = e.source.x, y1 = e.source.y, x2 = e.target.x, y2 = e.target.y, m = e.target.x, n = e.target.y, r = e.target.r
     let arr = this.getInsertPointBetweenCircleAndLine(x1, y1, x2, y2, m, n, r)
-    // ctx.fillRect(arr[0].x, arr[0].y, 5, 5)
+    let degrees = this.getAngle(e.source.x, e.source.y, e.target.x, e.target.y);
+
     //参数说明 canvas的 id ，原点坐标  第一个端点的坐标，第二个端点的坐标
     var start = new Array(x1, y1);
     var end = new Array(x2, y2);
-    ctx.translate(arr[0].x, arr[0].y);
-    // ctx.fillRect(0, 0, 10, 10)
     // ctx.beginPath()
     var ang = (end[0] - start[0]) / (end[1] - start[1]);
     ang = Math.atan(ang);
+    // 判断箭头是否在距离圆心的方向 数组有两项 0 和 1
+    if (degrees >= 0 && degrees < 180) {
+      ctx.translate(arr[1].x, arr[1].y);
+    } else {
+      ctx.translate(arr[0].x, arr[0].y);
+    }
+    // 判断箭头的正反方向
     if (end[1] - start[1] >= 0) {
       ctx.rotate(-ang);
     } else {
@@ -115,29 +121,6 @@ class StraightEdge extends Edge {
     ctx.stroke()
     // ctx.fill(); //箭头是个封闭图形
     ctx.closePath()
-  }
-
-  arrow_line1(ctx, sta, end, e) {
-    ctx.translate(end[0], end[1]);
-    //我的箭头本垂直向下，算出直线偏离Y的角，然后旋转 ,rotate是顺时针旋转的，所以加个负号
-    let ang = (end[0] - sta[0]) / (end[1] - sta[1]);
-    ang = Math.atan(ang);
-    if (end[1] - sta[1] >= 0) {
-      ctx.rotate(-ang);
-    } else {
-      ctx.rotate(Math.PI - ang);//加个180度，反过来
-      //ctx.scale(1, 0.2);
-    }
-    ctx.lineTo(-5, -10);
-    ctx.lineTo(0, -5);
-    ctx.lineTo(5, -10);
-    ctx.lineTo(0, 0);
-    ctx.fillStyle = e.target.options.color.default.border;
-    ctx.stroke()
-    ctx.fill(); //箭头是个封闭图形
-    ctx.lineWidth = 3;
-    ctx.restore();   //恢复到堆的上一个状态，其实这里没什么用。
-    ctx.closePath();
   }
 
   getAngle(px, py, mx, my) {//获得人物中心和鼠标坐标连线，与y轴正半轴之间的夹角
