@@ -96,6 +96,7 @@ class CircleNode extends Node {
     ctx.fill();
     ctx.restore();
   }
+
 }
 
 export default CircleNode;
