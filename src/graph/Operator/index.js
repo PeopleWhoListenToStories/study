@@ -120,11 +120,11 @@ class Operator {
       const p = this.getNodeEntity(id)
       const newNode = this.nodeClass(this.body, p, this.options, this.body.nodeOptions[p.type] || {})
       // const newNode = this.nodeClass(this.body, p, this.options, this.body.data.nodes[i] || {})
-
       newNodes.push(newNode)
       this.body.nodeMaps[id] = newNode
     }
     this.body.transformData.nodes = nodes = [...nodes, ...newNodes]
+    // console.log('127...', this.body.transformData.nodes)
     // d3重新定位节点位置
     this.simulation.nodes(this.body.transformData.nodes)
     // 是否绘制
@@ -315,7 +315,10 @@ class Operator {
    * @param {Number} y 坐标点y
    * @param {Number} radius 节点半径
    */
-  findNode(x, y, radius) {
+  findNode(x, y, radius) { 
+    // if (radius === undefined) {
+    //   radius = this.options.nodeSize
+    // }
     let i, dx, dy, d2, node, closest
     const nodes = this.body.transformData.viewNodes
     const n = nodes.length
@@ -344,12 +347,14 @@ class Operator {
    * @param {Number} y 坐标点y
    * @param {Array} nodes 需要筛选的节点数组
    */
-  findRectNode(x, y, nodes) {
-    let arr = nodes.filter(v=> v.nodeShape === 1)
-    return arr.filter(n => {
-      let nW = n.width / 2 , nH = n.height / 2 ;
-      return n.x - nW - 3 <= parseInt(x) && n.y - nH - 3  <= parseInt(y) && n.x + nW + 2 >= parseInt(x) && n.y + nH + 1 >= parseInt(y)
-    })[0]
+  findRectNode(point) {
+    return this.body.transformData.viewNodes.find(child=>{
+      const borderWidth = child.borderWidth > 0 ? child.borderWidth / 2 : child.borderWidth;
+      const W = child.width / 2 + borderWidth, H = child.height / 2 + borderWidth; // 计算范围时 把边框也算进去了
+      if(point.x >= child.x - W && point.x <= child.x + W && point.y >= child.y - H && point.y <= child.y + H) {
+        return child
+      }
+    })
   }
 
   /**
@@ -364,7 +369,7 @@ class Operator {
     for (let i = 0; i < edges.length; i++) {
       const e = edges[i]
       const dist = EdgeUtil.getDistanceToLine([e.source.x, e.source.y], [e.target.x, e.target.y], [x, y])
-      if (dist < mindist) {
+      if (dist <= e.edgeLineWidth / 2) {
         overlappingEdge = e
         mindist = dist
       }
@@ -410,6 +415,7 @@ class Operator {
    * @param m 鼠标相对于容器的坐标[x, y]
    */
   mouseTargetObject(m) {
+    alert(1)
     let d = null
     const node = this.findNode(this.transformX(m[0]), this.transformY(m[1]), Node.iconRadius())
     const edge = this.findEdge(this.transformX(m[0]), this.transformY(m[1]))
@@ -440,12 +446,13 @@ class Operator {
   /**
    * 获取鼠标对应的节点对象
    * @param {Object} m 鼠标对象
+   * @param {String} circleR 半径
    */
   getMouseNode(m) {
     let d = null
     const point = { x: this.transformX(m[0]), y: this.transformY(m[1]) }
     // 点击了实体类节点
-    const node = this.findNode(point.x, point.y, Node.iconRadius())
+    const node = this.body.transformData.viewNodes.find(child =>this.isIntersect(point,child)) || this.findRectNode(point)
     if (node != null) {
       d = node
     }
@@ -572,6 +579,13 @@ class Operator {
       maxX = 0
     }
     return { minX, maxX, minY, maxY }
+  }
+
+  /**
+   * 查找点击节点
+   */
+  isIntersect(point, circle) {
+    return ( Math.sqrt((point.x - circle.x) ** 2 + (point.y - circle.y) ** 2) < circle.r );
   }
 }
 

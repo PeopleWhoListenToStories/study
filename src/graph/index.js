@@ -15,7 +15,7 @@ import GlobalOptions from './Options/global'
  * 画布对象以及画布对应事件
  */
 class Graph {
-  constructor (panel, datas, width, height, options) {
+  constructor(panel, datas, width, height, options) {
     if (arguments.length === 0) {
       throw new SyntaxError('panel容器为必传参数')
     }
@@ -67,7 +67,7 @@ class Graph {
    * 初始化入口
    * @param {Object} options 自定义配置
    */
-  init (options) {
+  init(options) {
     this.initContainer() // 初始化canvas容器
     this.setOptions(options) // 初始化参数
     this.initForceSimulation() // 初始化力导图
@@ -78,7 +78,7 @@ class Graph {
   /**
    * 生成canvas容器:节点和连线分别用不同的canvas绘制
    */
-  initContainer () {
+  initContainer() {
     const nodeCanvas = document.createElement('canvas')
     const edgeCanvas = document.createElement('canvas')
     nodeCanvas.id = Util.uuid()
@@ -106,24 +106,25 @@ class Graph {
    * 设置参数
    * @param {Object} options 自定义配置
    */
-  setOptions (options) {
+  setOptions(options) {
     this.options = Util.extend(Object.assign({}, GlobalOptions), options)
   }
 
   /**
    * 初始化力导图
    */
-  initForceSimulation () {
+  initForceSimulation() {
     const _this = this
     // 自定义force约束
-    const drilldown = alpha => {}
+    const drilldown = alpha => { }
     _this.simulation = d3.forceSimulation()
-      .alphaDecay(0.05) // 设置alpha衰减系数
+      .alphaDecay(0.1) // 设置alpha衰减系数
       .force('link', d3.forceLink().id(d => d.id)) // 连线的距离设置
-      .force('collide', d3.forceCollide(60).strength(0.1))
+      .force('collide', d3.forceCollide(60).strength(0.1)) // 碰撞力
       .force('charge', d3.forceManyBody().distanceMin(300).distanceMax(400).strength(-400)) // 节点之间作用力
       .force('drilldown', drilldown)
-      // 生成空的力导图
+
+    // 生成空的力导图
     _this.simulation.nodes([])
       .on('tick', () => _this.body.emitter.emit('redraw'))
       .stop()
@@ -135,7 +136,7 @@ class Graph {
   /**
    * 绑定事件
    */
-  bindEvent () {
+  bindEvent() {
     const me = this
     // 注册默认的鼠标移动高亮和框选事件
     me.bindMouse()
@@ -161,6 +162,12 @@ class Graph {
     me.body.emitter.on('resize', (width, height) => me.setSize(width, height))
     // 11  click被用到:根据鼠标坐标获取操作对象
     me.body.emitter.on('tap', (mousePoint, event, callback) => {
+      // const point = {
+      //   x: this.operator.transformX(mousePoint[0]),
+      //   y: this.operator.transformY(mousePoint[1])
+      // }
+      // let circleNode = this.findViewNode(point);
+      // if (callback && Util.isFunction(callback)) { callback.call(this, circleNode, event) }
       const d = me.operator.getMouseTargetObject(mousePoint)
       if (callback && Util.isFunction(callback)) { callback.call(this, d, event) }
     })
@@ -172,10 +179,27 @@ class Graph {
     })
   }
 
+  in(x, y) {
+    var isIn = null; 
+    const context =  this.body.nodeContainer.getContext('2d');
+    // 模拟重绘需要判断时间的图形
+    for(let key = 0 ; key < this.body.transformData.viewNodes.length; key++ ){
+      context.beginPath();
+      this.body.transformData.viewNodes[key].draw()
+      if(context.isPointInPath(x, y)){
+        return isIn = this.body.transformData.viewNodes[key];
+      }else{
+        isIn = null
+      }
+    }
+    context.closePath();
+    return isIn;
+  }
+
   /**
    * 鼠标按下
    */
-  mousedownEvent () {
+  mousedownEvent() {
     const event = d3.event
     if (event != null && event.shiftKey && event.button === 0) {
       // 禁止缩放平移
@@ -190,7 +214,7 @@ class Graph {
    * @param {Number} width 宽度
    * @param {Number} height 高度
    */
-  setContainerSize (width, height) {
+  setContainerSize(width, height) {
     this.body.nodeContainer.width = this.body.edgeContainer.width = width
     this.body.nodeContainer.height = this.body.edgeContainer.height = height
     this.body.nodeContainer.style.width = this.body.edgeContainer.style.width = `${width}px`
@@ -204,7 +228,7 @@ class Graph {
    * @param {String | Number} width 宽度
    * @param {String | Number} height 高度
    */
-  setSize (width, height) {
+  setSize(width, height) {
     // 缓存原来canvas大小
     const _container = this.body.nodeContainer
     const oldWidth = _container.getBoundingClientRect().width
@@ -241,7 +265,7 @@ class Graph {
   /**
    * 销毁当前实例
    */
-  destroy () {
+  destroy() {
     // 清除事件
     this.body.emitter.off()
     this.off()
@@ -272,21 +296,21 @@ class Graph {
    * @param data 包含nodes和edges的数据
    * @param isCenter 是否居中
    */
-  setData (data = {nodes: [],edges: []}, isCenter = true) {
+  setData(data = { nodes: [], edges: [] }, isCenter = true) {
     this.operator.setDataSet(data.nodes, data.edges, isCenter)
   }
 
   /**
    * 绘制节点画布
    */
-  renderNodes () {
+  renderNodes() {
     if (this.body.data === undefined) return
+    const ctx =  this.body.nodeContainer.getContext('2d');
     const nodes = this.body.transformData.nodes
     // 遍历渲染节点
     if (nodes.length > 0) {
       // 清空视图中可见的节点数组
       this.body.transformData.viewNodes = []
-      const ctx = this.body.nodeContainer.getContext('2d')
       const scale = this.body.scale
       // 遍历绘制节点
       ctx.save()
@@ -311,7 +335,7 @@ class Graph {
   /**
    * 绘制连线画布
    */
-  renderEdges () {
+  renderEdges() {
     if (this.body.data === undefined) return
     if (!this.options.showEdge) return
     const nodes = this.body.transformData.nodes
@@ -335,7 +359,7 @@ class Graph {
   /**
    * 重新绘制：清空 + 绘制
    */
-  redraw () {
+  redraw() {
     // 先绘制连线再绘制节点, 保证节点在连线层级上
     this.redrawEdges()
     this.redrawNodes()
@@ -345,15 +369,15 @@ class Graph {
   /**
    * 重绘节点画布
    */
-  redrawNodes () {
-    this.operator.clearGraph(this.body.nodeContainer)
+  redrawNodes() {
+    this.operator.clearGraph(this.body.nodeContainer) 
     this.renderNodes()
   }
 
   /**
    * 重绘连线画布
    */
-  redrawEdges () {
+  redrawEdges() {
     this.operator.clearGraph(this.body.edgeContainer)
     this.renderEdges()
   }
@@ -361,7 +385,7 @@ class Graph {
   /**
    * 重绘缩略图
    */
-  redrawThumb () {
+  redrawThumb() {
     if (this.thumbnail != null) {
       this.thumbnail.redraw()
     }
@@ -370,7 +394,7 @@ class Graph {
   /**
    * 注册鼠标事件:框选
    */
-  bindMouse () {
+  bindMouse() {
     d3.select(this.body.nodeContainer)
       .on('mousedown', () => this.mousedownEvent())
   }
@@ -378,7 +402,7 @@ class Graph {
   /**
    * 注册默认模式下拖拽事件
    */
-  bindDrag () {
+  bindDrag() {
     // 禁用默认拖拽事件
     d3.dragDisable(window)
     // 注册canvas拖拽
@@ -393,7 +417,7 @@ class Graph {
   /**
    * 取消拖拽事件
    */
-  unbindDrag () {
+  unbindDrag() {
     // 恢复默认拖拽事件
     d3.dragEnable(window)
     // 取消canvas拖拽
@@ -403,7 +427,7 @@ class Graph {
   /**
    * 注册缩放平移事件
    */
-  bindZoomPan () {
+  bindZoomPan() {
     d3.select(this.body.nodeContainer).call(
       d3.zoom().scaleExtent([0.1, 3])
         .on('start', () => this.zoomStartEvent())
@@ -415,7 +439,7 @@ class Graph {
   /**
    * 取消注册平移缩放
    */
-  unbindZoomPan () {
+  unbindZoomPan() {
     d3.select(this.body.nodeContainer).call(
       d3.zoom()
         .on('start', null)
@@ -427,7 +451,7 @@ class Graph {
   /**
    * 拖拽开始
    */
-  dragstartEvent () {
+  dragstartEvent() {
     // 防止事件传播
     d3.event.sourceEvent.stopPropagation()
     if (this.options.enableDrag) {
@@ -444,7 +468,7 @@ class Graph {
   /**
    * 拖拽过程
    */
-  draggingEvent () {
+  draggingEvent() {
     // 2021年2月20日 10:34:14 sulei
     // 拖拽过程中不绘制连线
     // if (this.options.showEdge) {
@@ -466,7 +490,7 @@ class Graph {
   /**
    * 拖拽结束
    */
-  dragendEvent () {
+  dragendEvent() {
     // 防止事件传播
     d3.event.sourceEvent.stopPropagation()
     const _this = this
@@ -488,7 +512,7 @@ class Graph {
   /**
    * 平移缩放事件
    */
-  zoomEvent () {
+  zoomEvent() {
     const evt = d3.event
     if (this.options.enableZoomPan && ((evt.type !== 'end' && evt.shiftKey !== undefined && !evt.shiftKey) || (evt.type !== 'end' && evt.shiftKey === undefined && !evt.sourceEvent.shiftKey) || evt.type === 'end')) {
       this.body.scale = evt.transform
@@ -499,7 +523,7 @@ class Graph {
   /**
    * 平移缩放中的事件
    */
-  zoomingEvent () {
+  zoomingEvent() {
     const evt = d3.event
     if (JSON.stringify(this.body.scale) === JSON.stringify(evt.transform)) return
     this.zoomEvent()
@@ -508,7 +532,7 @@ class Graph {
   /**
    * 平移缩放 - 开始事件
    */
-  zoomStartEvent () {
+  zoomStartEvent() {
     const evt = d3.event
     // 阻止默认事件
     evt.sourceEvent.stopPropagation()
@@ -524,7 +548,7 @@ class Graph {
   /**
    * 平移缩放 - 结束事件
    */
-  zoomEndEvent () {
+  zoomEndEvent() {
     const evt = d3.event
     if (this.options.enableZoomPan && !evt.shiftKey) {
       // 开始label绘制
@@ -539,13 +563,60 @@ class Graph {
   /**
    * 拖拽应用对象
    */
-  dragsubject () {
+  dragsubject() {
     const mousePoint = d3.mouse(this.body.nodeContainer)
     const point = {
       x: this.operator.transformX(mousePoint[0]),
       y: this.operator.transformY(mousePoint[1])
     }
-    return this.operator.findRectNode(point.x,point.y,this.body.transformData.nodes) || this.operator.findNode(point.x, point.y, Node.iconRadius())
+    // console.log(point,'☝',this.findViewNode(point))
+    return this.findViewNode(point)
+    // const d = this.operator.getMouseTargetObject([point.x,point.y], circleNode === undefined ? this.options.nodeSize : circleNode.r)
+    // console.log(d,'d')
+    // if(d && !isNaN(d.x) && !isNaN(d.y)){
+    //   return d 
+    // }
+  }
+
+
+
+  /**
+   * 通过xy 查找视图上对应的节点 先找圆 圆找不到后找rect
+   */
+  findViewNode(point) { 
+    let circleOrRectNode = null; // 默认节点为空
+      let circleNode =  this.body.transformData.viewNodes.find(child =>this.isIntersect(point,child));
+      if(!circleNode){
+        let rectNode = this.findViewRectNode(point)
+        if(!rectNode){
+          circleOrRectNode = null // 找不设置为空
+        }else{
+          circleOrRectNode = rectNode
+        }
+      }else{
+        circleOrRectNode = circleNode
+      }
+    return circleOrRectNode
+  }
+
+  /**
+   * 如果节点是正方形 判断当前坐标是否命中正方形
+   */
+  findViewRectNode(point){
+    return this.body.transformData.viewNodes.find(child=>{
+      const borderWidth = child.borderWidth > 0 ? child.borderWidth / 2 : child.borderWidth;
+      const W = child.width / 2 + borderWidth, H = child.height / 2 + borderWidth; // 计算范围时 把边框也算进去了
+      if(point.x >= child.x - W && point.x <= child.x + W && point.y >= child.y - H && point.y <= child.y + H) {
+        return child
+      }
+    })
+  }
+
+  /**
+   * 查找点击节点
+   */
+  isIntersect(point, circle) {
+    return ( Math.sqrt((point.x - circle.x) ** 2 + (point.y - circle.y) ** 2) < circle.r );
   }
 }
 

@@ -192,3 +192,4 @@ export function fittingString(_ctx, str, maxWidth) {
     return str + ellipsis;
   }
 }
+

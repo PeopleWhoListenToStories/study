@@ -8,8 +8,6 @@ import { fittingString } from "../Util/index";
 class CircleNode extends Node {
   constructor(body, data, globalOptions, options) {
     super(body, data, globalOptions, options);
-    this.r = this.iconRadius();
-    this.nodeData = data;
   }
 
   /**
@@ -29,13 +27,7 @@ class CircleNode extends Node {
     // 节点图标
     this.drawIcon(ctx, false);
     // 节点名称
-    if (
-      d.globalOptions.showLabel &&
-      d.label !== undefined &&
-      d.label !== null &&
-      !isHideLabel &&
-      scale.k >= hideLabelScale
-    ) {
+    if ( d.globalOptions.showLabel &&  d.label !== undefined && d.label !== null &&  !isHideLabel &&  scale.k >= hideLabelScale  ) {
       this.drawLabel(ctx, d);
     }
     ctx.restore();
@@ -60,23 +52,18 @@ class CircleNode extends Node {
    * @param {Object} ctx canvas 上下文
    * @param {Object} d 当前节点对象
    */
-  drawLabel(ctx, d) {
+  drawLabel(ctx, d) { 
     ctx.save();
-    ctx.textBaseline = "middle";
-    ctx.textAlign = "center";
-    const opt = d.options;
-    ctx.fillStyle = opt.font.color.default;
-    ctx.font = `${opt.font.size.default}px ${opt.font.face}`;
-    // let h = d.y + d.r + 10
-    // console.log(d.r * 2,'d.r * 2',d)
-    let _text = null ,h = d.y;
-    // 判断是不是矩形
-    if(d.nodeShape === 1) {
-      _text= fittingString(ctx, d.label, d.width);
+    ctx.textBaseline = d.textBaseline;
+    ctx.textAlign = d.textAlign;
+    ctx.fillStyle = d.textColor; 
+    ctx.font = `${d.size}px ${d.face}`;
+    let _text = fittingString(ctx, d.label, d.r * 2);
+    if(d.nodeShape === 0){
+      ctx.fillText(_text, d.x , d.y);
     }else{
-      _text = fittingString(ctx, d.label, d.r * 2);
+      ctx.fillText(_text,d.x , d.y )
     }
-    ctx.fillText(_text, d.x, h);
     ctx.restore();
   }
 
@@ -92,16 +79,20 @@ class CircleNode extends Node {
     ctx.moveTo(d.x + d.r, d.y);
     this.fillNodeStyle(ctx);
     if (d.nodeShape === 0) {
-      ctx.arc(d.x, d.y, d.r, 0, 2 * Math.PI);
-    } else {
+      ctx.lineWidth = d.borderWidth;
+      ctx.arc(d.x, d.y, d.r , 0, 2 * Math.PI);
+      ctx.stroke();
+    } else if (d.nodeShape === 1){
       ctx.lineJoin = "round";
-      ctx.lineWidth = 5;
-      ctx.strokeRect(d.x - d.r, d.y - d.r, d.width, d.height);
-      ctx.fillRect(d.x - d.r, d.y - d.r, d.width, d.height);
+      ctx.lineWidth = d.borderWidth;
+      let r = d.width / 2;
+      ctx.strokeRect(d.x - r, d.y - r, d.width, d.height);
+      ctx.fillRect(d.x - r, d.y - r, d.width, d.height);
     }
     ctx.fill();
     ctx.restore();
   }
+
 }
 
 export default CircleNode;

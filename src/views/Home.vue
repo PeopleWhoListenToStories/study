@@ -46,20 +46,43 @@
               <router-link to="/home/one8">简易拖拽8</router-link>
             </el-menu-item>
           </el-menu-item-group>
-          <!-- <el-menu-item-group title="分组2">
-            <el-menu-item index="1-3">选项3</el-menu-item>
-          </el-menu-item-group>
-          <el-submenu index="1-4">
-            <span slot="title">选项4</span>
-            <el-menu-item index="1-4-1">选项1</el-menu-item>
-          </el-submenu> -->
         </el-submenu>
-        <el-menu-item index="2">
+        <el-submenu index="2">
+          <template slot="title">
+            <i class="el-icon-menu"></i>
+            <span slot="title">canvas</span>
+          </template>
+          <el-menu-item-group>
+            <el-menu-item index="2-1">
+              <router-link to="/canvas">canvas</router-link>
+            </el-menu-item>
+            <el-menu-item index="2-2">
+              <router-link to="/canvas1">canvas1</router-link>
+            </el-menu-item>
+            <el-menu-item index="2-3">
+              <router-link to="/canvas2">canvas2</router-link>
+            </el-menu-item>
+            <el-menu-item index="2-4">
+              <router-link to="/canvas3">canvas3</router-link>
+            </el-menu-item>
+            <el-menu-item index="2-5">
+              <router-link to="/canvas4">canvas4</router-link>
+            </el-menu-item>
+            <el-menu-item index="2-6">
+              <router-link to="/canvas5">canvas5</router-link>
+            </el-menu-item>
+            <el-menu-item index="2-7">
+              <router-link to="/canvas6">canvas6</router-link>
+            </el-menu-item>
+          </el-menu-item-group>
+        </el-submenu>
+        <!-- <el-menu-item index="2">
           <i class="el-icon-menu"></i>
           <span slot="title">
             <router-link to="/home/two">导航二</router-link>
           </span>
-        </el-menu-item>
+          
+        </el-menu-item> -->
         <!-- <el-menu-item index="3" disabled>
           <i class="el-icon-document"></i>
           <span slot="title">导航三</span>

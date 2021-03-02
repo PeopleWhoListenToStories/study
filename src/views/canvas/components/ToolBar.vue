@@ -1,7 +1,9 @@
 <template>
   <div  class="c-mini-toolbar">
     <div class="c-mb-button" style="margin-top: 0px;" @click="changeFullscreen(!fullscreen)">
-      <svg class="rg-icon" aria-hidden="true"><use xlink:href="#icon-resize-"></use></svg>
+      <svg class="rg-icon" aria-hidden="true"><use xlink:href="#icon-resize-">
+        <svg id="icon-resize-" viewBox="0 0 1024 1024"><path d="M410.816 673.514667L230.997333 853.333333H384v85.333334H85.333333V640h85.333334v153.002667l179.818666-179.84 60.330667 60.373333z m-53.632-256L170.666667 230.997333V384H85.333333V85.333333h298.666667v85.333334h-153.002667l186.517334 186.517333-60.330667 60.330667z m234.666667-45.696L793.002667 170.666667H640V85.333333h298.666667v298.666667h-85.333334v-153.002667l-201.152 201.173334-60.330666-60.373334z m67.029333 226.709333L853.333333 793.002667V640h85.333334v298.666667H640v-85.333334h153.002667l-194.474667-194.453333 60.352-60.352z"></path></svg>
+        </use></svg>
       <span class="c-mb-text">{{ fullscreen?'退出':'全屏' }}</span>
     </div>
     <!-- <div class="c-mb-button">

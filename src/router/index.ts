@@ -100,12 +100,6 @@ const routes: RouteConfig[] = [
     component: () =>
       import(/* webpackChunkName: 'about' */ '../views/canvas/index6.vue'),
   },
-  {
-    path: '/canvas7',
-    name: 'About',
-    component: () =>
-      import(/* webpackChunkName: 'about' */ '../views/canvas/index7.vue'),
-  },
 ];
 
 const router = new VueRouter({
