@@ -6,7 +6,7 @@
   <author>
     <name>Lei Xu</name>
   </author>
-  <updated>2021-11-11T10:13:38.812Z</updated>
+  <updated>2021-11-11T12:52:09.610Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://peoplewholistentostories.github.io/study/atom.xml"/>
   <link rel="alternate" href="https://peoplewholistentostories.github.io/study/"/>
@@ -24,7 +24,7 @@
     <title type="html">Markdown示例</title>
     <id>https://peoplewholistentostories.github.io/study/code/language/markdown/demo/</id>
     <link href="https://peoplewholistentostories.github.io/study/code/language/markdown/demo/"/>
-    <updated>2021-11-11T10:14:11.791Z</updated>
+    <updated>2021-11-11T12:31:01.000Z</updated>
     <content type="html"><![CDATA[
 <h1 id="一级标题"> 一级标题</h1>
 
@@ -274,13 +274,14 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <contributor>
       <name>Lei Xu</name>
     </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Markdown 块元素</title>
     <id>https://peoplewholistentostories.github.io/study/code/language/markdown/block/</id>
     <link href="https://peoplewholistentostories.github.io/study/code/language/markdown/block/"/>
-    <updated>2021-11-11T10:14:11.797Z</updated>
+    <updated>2021-11-11T12:31:01.000Z</updated>
     <content type="html"><![CDATA[<h2 id="段落和换行"> 段落和换行</h2>
 <p>一个段落由一个及以上相连接的行句组成。</p>
 <p>一个即以上的空行则会切分出不同的段落，一般的段落不需要用空白或断行缩进。</p>
@@ -755,13 +756,14 @@ end tell
     <contributor>
       <name>Lei Xu</name>
     </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">对象</title>
     <id>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/object/</id>
     <link href="https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/object/"/>
-    <updated>2021-11-11T10:14:11.805Z</updated>
+    <updated>2021-11-11T12:31:01.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>🎍 <code>:bamboo:</code></li>
 <li>💝 <code>:gift_heart:</code></li>
@@ -1032,178 +1034,14 @@ end tell
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <rights>Copyright by Lei Xu</rights>
-  </entry>
-  <entry>
-    <title type="html">自然</title>
-    <id>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/nature/</id>
-    <link href="https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/nature/"/>
-    <updated>2021-11-11T10:14:11.809Z</updated>
-    <content type="html"><![CDATA[<ul>
-<li>☀️ <code>:sunny:</code></li>
-<li>☔️ <code>:umbrella:</code></li>
-<li>☁️ <code>:cloud:</code></li>
-<li>❄️ <code>:snowflake:</code></li>
-<li>⛄️ <code>:snowman:</code></li>
-<li>⚡️ <code>:zap:</code></li>
-<li>🌀 <code>:cyclone:</code></li>
-<li>🌁 <code>:foggy:</code></li>
-<li>🌊 <code>:ocean:</code></li>
-<li>🐱 <code>:cat:</code></li>
-<li>🐶 <code>:dog:</code></li>
-<li>🐭 <code>:mouse:</code></li>
-<li>🐹 <code>:hamster:</code></li>
-<li>🐰 <code>:rabbit:</code></li>
-<li>🐺 <code>:wolf:</code></li>
-<li>🐸 <code>:frog:</code></li>
-<li>🐯 <code>:tiger:</code></li>
-<li>🐨 <code>:koala:</code></li>
-<li>🐻 <code>:bear:</code></li>
-<li>🐷 <code>:pig:</code></li>
-<li>🐽 <code>:pig_nose:</code></li>
-<li>🐮 <code>:cow:</code></li>
-<li>🐗 <code>:boar:</code></li>
-<li>🐵 <code>:monkey_face:</code></li>
-<li>🐒 <code>:monkey:</code></li>
-<li>🐴 <code>:horse:</code></li>
-<li>🐎 <code>:racehorse:</code></li>
-<li>🐫 <code>:camel:</code></li>
-<li>🐑 <code>:sheep:</code></li>
-<li>🐘 <code>:elephant:</code></li>
-<li>🐼 <code>:panda_face:</code></li>
-<li>🐍 <code>:snake:</code></li>
-<li>🐦 <code>:bird:</code></li>
-<li>🐤 <code>:baby_chick:</code></li>
-<li>🐥 <code>:hatched_chick:</code></li>
-<li>🐣 <code>:hatching_chick:</code></li>
-<li>🐔 <code>:chicken:</code></li>
-<li>🐧 <code>:penguin:</code></li>
-<li>🐢 <code>:turtle:</code></li>
-<li>🐛 <code>:bug:</code></li>
-<li>🐝 <code>:honeybee:</code></li>
-<li>🐜 <code>:ant:</code></li>
-<li>🐞 <code>:beetle:</code></li>
-<li>🐌 <code>:snail:</code></li>
-<li>🐙 <code>:octopus:</code></li>
-<li>🐠 <code>:tropical_fish:</code></li>
-<li>🐟 <code>:fish:</code></li>
-<li>🐳 <code>:whale:</code></li>
-<li>🐋 <code>:whale2:</code></li>
-<li>🐬 <code>:dolphin:</code></li>
-<li>🐄 <code>:cow2:</code></li>
-<li>🐏 <code>:ram:</code></li>
-<li>🐀 <code>:rat:</code></li>
-<li>🐃 <code>:water_buffalo:</code></li>
-<li>🐅 <code>:tiger2:</code></li>
-<li>🐇 <code>:rabbit2:</code></li>
-<li>🐉 <code>:dragon:</code></li>
-<li>🐐 <code>:goat:</code></li>
-<li>🐓 <code>:rooster:</code></li>
-<li>🐕 <code>:dog2:</code></li>
-<li>🐖 <code>:pig2:</code></li>
-<li>🐁 <code>:mouse2:</code></li>
-<li>🐂 <code>:ox:</code></li>
-<li>🐲 <code>:dragon_face:</code></li>
-<li>🐡 <code>:blowfish:</code></li>
-<li>🐊 <code>:crocodile:</code></li>
-<li>🐪 <code>:dromedary_camel:</code></li>
-<li>🐆 <code>:leopard:</code></li>
-<li>🐈 <code>:cat2:</code></li>
-<li>🐩 <code>:poodle:</code></li>
-<li>🐾 <code>:paw_prints:</code></li>
-<li>💐 <code>:bouquet:</code></li>
-<li>🌸 <code>:cherry_blossom:</code></li>
-<li>🌷 <code>:tulip:</code></li>
-<li>🍀 <code>:four_leaf_clover:</code></li>
-<li>🌹 <code>:rose:</code></li>
-<li>🌻 <code>:sunflower:</code></li>
-<li>🌺 <code>:hibiscus:</code></li>
-<li>🍁 <code>:maple_leaf:</code></li>
-<li>🍃 <code>:leaves:</code></li>
-<li>🍂 <code>:fallen_leaf:</code></li>
-<li>🌿 <code>:herb:</code></li>
-<li>🍄 <code>:mushroom:</code></li>
-<li>🌵 <code>:cactus:</code></li>
-<li>🌴 <code>:palm_tree:</code></li>
-<li>🌲 <code>:evergreen_tree:</code></li>
-<li>🌳 <code>:deciduous_tree:</code></li>
-<li>🌰 <code>:chestnut:</code></li>
-<li>🌱 <code>:seedling:</code></li>
-<li>🌼 <code>:blossom:</code></li>
-<li>🌾 <code>:ear_of_rice:</code></li>
-<li>🐚 <code>:shell:</code></li>
-<li>🌐 <code>:globe_with_meridians:</code></li>
-<li>🌞 <code>:sun_with_face:</code></li>
-<li>🌝 <code>:full_moon_with_face:</code></li>
-<li>🌚 <code>:new_moon_with_face:</code></li>
-<li>🌑 <code>:new_moon:</code></li>
-<li>🌒 <code>:waxing_crescent_moon:</code></li>
-<li>🌓 <code>:first_quarter_moon:</code></li>
-<li>🌔 <code>:waxing_gibbous_moon:</code></li>
-<li>🌕 <code>:full_moon:</code></li>
-<li>🌖 <code>:waning_gibbous_moon:</code></li>
-<li>🌗 <code>:last_quarter_moon:</code></li>
-<li>🌘 <code>:waning_crescent_moon:</code></li>
-<li>🌜 <code>:last_quarter_moon_with_face:</code></li>
-<li>🌛 <code>:first_quarter_moon_with_face:</code></li>
-<li>🌙 <code>:crescent_moon:</code></li>
-<li>🌍 <code>:earth_africa:</code></li>
-<li>🌎 <code>:earth_americas:</code></li>
-<li>🌏 <code>:earth_asia:</code></li>
-<li>🌋 <code>:volcano:</code></li>
-<li>🌌 <code>:milky_way:</code></li>
-<li>⛅️ <code>:partly_sunny:</code></li>
-</ul>
-]]></content>
-    <author>
-      <name>Lei Xu</name>
-    </author>
-    <category term="Markdown"/>
-    <contributor>
-      <name>Lei Xu</name>
-    </contributor>
-    <rights>Copyright by Lei Xu</rights>
-  </entry>
-  <entry>
-    <title type="html">Emoji 列表</title>
-    <id>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/</id>
-    <link href="https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/"/>
-    <updated>2021-11-11T10:14:11.810Z</updated>
-    <content type="html"><![CDATA[<h2 id="人物"> 人物</h2>
-<ul>
-<li><a href="./people.html">点击前往</a></li>
-</ul>
-<h2 id="自然"> 自然</h2>
-<ul>
-<li><a href="./nature.html">点击前往</a></li>
-</ul>
-<h2 id="对象"> 对象</h2>
-<ul>
-<li><a href="./object.html">点击前往</a></li>
-</ul>
-<h2 id="地点"> 地点</h2>
-<ul>
-<li><a href="./place.html">点击前往</a></li>
-</ul>
-<h2 id="符号"> 符号</h2>
-<ul>
-<li><a href="./symbol.html">点击前往</a></li>
-</ul>
-]]></content>
-    <author>
-      <name>Lei Xu</name>
-    </author>
-    <category term="Markdown"/>
-    <contributor>
-      <name>Lei Xu</name>
-    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">人物</title>
     <id>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/people/</id>
     <link href="https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/people/"/>
-    <updated>2021-11-11T10:14:11.814Z</updated>
+    <updated>2021-11-11T12:31:01.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>😄 <code>:smile:</code></li>
 <li>😆 <code>:laughing:</code></li>
@@ -1392,13 +1230,145 @@ end tell
     <contributor>
       <name>Lei Xu</name>
     </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
+    <rights>Copyright by Lei Xu</rights>
+  </entry>
+  <entry>
+    <title type="html">自然</title>
+    <id>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/nature/</id>
+    <link href="https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/nature/"/>
+    <updated>2021-11-11T12:31:01.000Z</updated>
+    <content type="html"><![CDATA[<ul>
+<li>☀️ <code>:sunny:</code></li>
+<li>☔️ <code>:umbrella:</code></li>
+<li>☁️ <code>:cloud:</code></li>
+<li>❄️ <code>:snowflake:</code></li>
+<li>⛄️ <code>:snowman:</code></li>
+<li>⚡️ <code>:zap:</code></li>
+<li>🌀 <code>:cyclone:</code></li>
+<li>🌁 <code>:foggy:</code></li>
+<li>🌊 <code>:ocean:</code></li>
+<li>🐱 <code>:cat:</code></li>
+<li>🐶 <code>:dog:</code></li>
+<li>🐭 <code>:mouse:</code></li>
+<li>🐹 <code>:hamster:</code></li>
+<li>🐰 <code>:rabbit:</code></li>
+<li>🐺 <code>:wolf:</code></li>
+<li>🐸 <code>:frog:</code></li>
+<li>🐯 <code>:tiger:</code></li>
+<li>🐨 <code>:koala:</code></li>
+<li>🐻 <code>:bear:</code></li>
+<li>🐷 <code>:pig:</code></li>
+<li>🐽 <code>:pig_nose:</code></li>
+<li>🐮 <code>:cow:</code></li>
+<li>🐗 <code>:boar:</code></li>
+<li>🐵 <code>:monkey_face:</code></li>
+<li>🐒 <code>:monkey:</code></li>
+<li>🐴 <code>:horse:</code></li>
+<li>🐎 <code>:racehorse:</code></li>
+<li>🐫 <code>:camel:</code></li>
+<li>🐑 <code>:sheep:</code></li>
+<li>🐘 <code>:elephant:</code></li>
+<li>🐼 <code>:panda_face:</code></li>
+<li>🐍 <code>:snake:</code></li>
+<li>🐦 <code>:bird:</code></li>
+<li>🐤 <code>:baby_chick:</code></li>
+<li>🐥 <code>:hatched_chick:</code></li>
+<li>🐣 <code>:hatching_chick:</code></li>
+<li>🐔 <code>:chicken:</code></li>
+<li>🐧 <code>:penguin:</code></li>
+<li>🐢 <code>:turtle:</code></li>
+<li>🐛 <code>:bug:</code></li>
+<li>🐝 <code>:honeybee:</code></li>
+<li>🐜 <code>:ant:</code></li>
+<li>🐞 <code>:beetle:</code></li>
+<li>🐌 <code>:snail:</code></li>
+<li>🐙 <code>:octopus:</code></li>
+<li>🐠 <code>:tropical_fish:</code></li>
+<li>🐟 <code>:fish:</code></li>
+<li>🐳 <code>:whale:</code></li>
+<li>🐋 <code>:whale2:</code></li>
+<li>🐬 <code>:dolphin:</code></li>
+<li>🐄 <code>:cow2:</code></li>
+<li>🐏 <code>:ram:</code></li>
+<li>🐀 <code>:rat:</code></li>
+<li>🐃 <code>:water_buffalo:</code></li>
+<li>🐅 <code>:tiger2:</code></li>
+<li>🐇 <code>:rabbit2:</code></li>
+<li>🐉 <code>:dragon:</code></li>
+<li>🐐 <code>:goat:</code></li>
+<li>🐓 <code>:rooster:</code></li>
+<li>🐕 <code>:dog2:</code></li>
+<li>🐖 <code>:pig2:</code></li>
+<li>🐁 <code>:mouse2:</code></li>
+<li>🐂 <code>:ox:</code></li>
+<li>🐲 <code>:dragon_face:</code></li>
+<li>🐡 <code>:blowfish:</code></li>
+<li>🐊 <code>:crocodile:</code></li>
+<li>🐪 <code>:dromedary_camel:</code></li>
+<li>🐆 <code>:leopard:</code></li>
+<li>🐈 <code>:cat2:</code></li>
+<li>🐩 <code>:poodle:</code></li>
+<li>🐾 <code>:paw_prints:</code></li>
+<li>💐 <code>:bouquet:</code></li>
+<li>🌸 <code>:cherry_blossom:</code></li>
+<li>🌷 <code>:tulip:</code></li>
+<li>🍀 <code>:four_leaf_clover:</code></li>
+<li>🌹 <code>:rose:</code></li>
+<li>🌻 <code>:sunflower:</code></li>
+<li>🌺 <code>:hibiscus:</code></li>
+<li>🍁 <code>:maple_leaf:</code></li>
+<li>🍃 <code>:leaves:</code></li>
+<li>🍂 <code>:fallen_leaf:</code></li>
+<li>🌿 <code>:herb:</code></li>
+<li>🍄 <code>:mushroom:</code></li>
+<li>🌵 <code>:cactus:</code></li>
+<li>🌴 <code>:palm_tree:</code></li>
+<li>🌲 <code>:evergreen_tree:</code></li>
+<li>🌳 <code>:deciduous_tree:</code></li>
+<li>🌰 <code>:chestnut:</code></li>
+<li>🌱 <code>:seedling:</code></li>
+<li>🌼 <code>:blossom:</code></li>
+<li>🌾 <code>:ear_of_rice:</code></li>
+<li>🐚 <code>:shell:</code></li>
+<li>🌐 <code>:globe_with_meridians:</code></li>
+<li>🌞 <code>:sun_with_face:</code></li>
+<li>🌝 <code>:full_moon_with_face:</code></li>
+<li>🌚 <code>:new_moon_with_face:</code></li>
+<li>🌑 <code>:new_moon:</code></li>
+<li>🌒 <code>:waxing_crescent_moon:</code></li>
+<li>🌓 <code>:first_quarter_moon:</code></li>
+<li>🌔 <code>:waxing_gibbous_moon:</code></li>
+<li>🌕 <code>:full_moon:</code></li>
+<li>🌖 <code>:waning_gibbous_moon:</code></li>
+<li>🌗 <code>:last_quarter_moon:</code></li>
+<li>🌘 <code>:waning_crescent_moon:</code></li>
+<li>🌜 <code>:last_quarter_moon_with_face:</code></li>
+<li>🌛 <code>:first_quarter_moon_with_face:</code></li>
+<li>🌙 <code>:crescent_moon:</code></li>
+<li>🌍 <code>:earth_africa:</code></li>
+<li>🌎 <code>:earth_americas:</code></li>
+<li>🌏 <code>:earth_asia:</code></li>
+<li>🌋 <code>:volcano:</code></li>
+<li>🌌 <code>:milky_way:</code></li>
+<li>⛅️ <code>:partly_sunny:</code></li>
+</ul>
+]]></content>
+    <author>
+      <name>Lei Xu</name>
+    </author>
+    <category term="Markdown"/>
+    <contributor>
+      <name>Lei Xu</name>
+    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">地点</title>
     <id>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/place/</id>
     <link href="https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/place/"/>
-    <updated>2021-11-11T10:14:11.817Z</updated>
+    <updated>2021-11-11T12:31:01.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>🏠 <code>:house:</code></li>
 <li>🏡 <code>:house_with_garden:</code></li>
@@ -1504,365 +1474,14 @@ end tell
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <rights>Copyright by Lei Xu</rights>
-  </entry>
-  <entry>
-    <title type="html">Markdown 扩展</title>
-    <id>https://peoplewholistentostories.github.io/study/code/language/markdown/extend/</id>
-    <link href="https://peoplewholistentostories.github.io/study/code/language/markdown/extend/"/>
-    <updated>2021-11-11T10:14:11.821Z</updated>
-    <content type="html"><![CDATA[<h2 id="其他特性"> 其他特性</h2>
-<h3 id="自动链接"> 自动链接</h3>
-<p>Markdown 支持比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用尖括号包起来， Markdown 就会自动把它转成链接，链接的文字就和链接位置一样，例如:</p>
-<div><pre><code>&lt;http://example.com/>
-</code></pre>
-<div><span>1</span><br></div></div><p>Markdown 会转为:</p>
-<div><pre><code><span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>http://example.com/<span>"</span></span><span>></span></span>http://example.com/<span><span><span>&lt;/</span>a</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br></div></div><p>自动的邮件链接也很类似，只是 Markdown 会先做一个编码转换的过程，把文字字符转成 16 进位码的 HTML 实体，这样的格式可以混淆一些不好的信箱地址收集机器人，例如:</p>
-<div><pre><code><span><span><span>&lt;</span>address@example.com</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br></div></div><p>Markdown 会转成:</p>
-<div><pre><code><span><span><span>&lt;</span>a</span>
-  <span>href</span><span><span>=</span><span>"</span><span title="&#x6D;">&amp;#x6D;</span><span title="&#x61;">&amp;#x61;</span>i<span title="&#x6C;">&amp;#x6C;</span><span title="&#x74;">&amp;#x74;</span><span title="&#x6F;">&amp;#x6F;</span>:<span title="&#x61;">&amp;#x61;</span><span title="&#x64;">&amp;#x64;</span><span title="&#x64;">&amp;#x64;</span><span title="&#x72;">&amp;#x72;</span><span title="&#x65;">&amp;#x65;</span><span title="&#115;">&amp;#115;</span><span title="&#115;">&amp;#115;</span><span title="&#64;">&amp;#64;</span><span title="&#101;">&amp;#101;</span><span title="&#120;">&amp;#120;</span><span title="&#x61;">&amp;#x61;</span><span title="&#109;">&amp;#109;</span><span title="&#x70;">&amp;#x70;</span><span title="&#x6C;">&amp;#x6C;</span>e<span title="&#x2E;">&amp;#x2E;</span><span title="&#99;">&amp;#99;</span><span title="&#111;">&amp;#111;</span><span title="&#109;">&amp;#109;</span><span>"</span></span>
-  <span>></span></span><span title="&#x61;">&amp;#x61;</span><span title="&#x64;">&amp;#x64;</span><span title="&#x64;">&amp;#x64;</span><span title="&#x72;">&amp;#x72;</span><span title="&#x65;">&amp;#x65;</span><span title="&#115;">&amp;#115;</span><span title="&#115;">&amp;#115;</span><span title="&#64;">&amp;#64;</span><span title="&#101;">&amp;#101;</span><span title="&#120;">&amp;#120;</span><span title="&#x61;">&amp;#x61;</span><span title="&#109;">&amp;#109;</span><span title="&#x70;">&amp;#x70;</span><span title="&#x6C;">&amp;#x6C;</span>e<span title="&#x2E;">&amp;#x2E;</span><span title="&#99;">&amp;#99;</span><span title="&#111;">&amp;#111;</span><span title="&#109;">&amp;#109;</span><span><span><span>&lt;/</span>a</span>
-<span>></span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>在浏览器里面，这段字串会变成一个可以点击的「address@example.com」链接。</p>
-<p>(这种作法虽然可以混淆不少的机器人，但并无法全部挡下来，不过这样也比什么都不做好些。无论如何，公开你的信箱终究会引来广告信件的。)</p>
-<h3 id="转义字符"> 转义字符</h3>
-<p>Markdown 可以利用反斜线来插入一些在语法中有其它意义的符号，例如: 如果你想要用星号加在文字旁边的方式来做出强调效果 (但不用 <code>&lt;em&gt;</code> 标签) ，你可以在星号的前面加上反斜线:</p>
-<div><pre><code>\*literal asterisks\*
-</code></pre>
-<div><span>1</span><br></div></div><p>Markdown 支持在下面这些符号前面加上反斜线来帮助插入普通的符号:</p>
-<ul>
-<li><code>\</code> 反斜线</li>
-<li><code>`</code> 反引号</li>
-<li><code>*</code> 星号</li>
-<li><code>_</code> 底线</li>
-<li><code>{}</code> 大括号</li>
-<li><code>[]</code> 方括号</li>
-<li><code>()</code> 括号</li>
-<li><code>#</code> 井字号</li>
-<li><code>+</code> 加号</li>
-<li><code>-</code> 减号</li>
-<li><code>.</code> 英文句点</li>
-<li><code>!</code> 惊叹号</li>
-</ul>
-<h2 id="大部分编辑器通用快捷键"> 大部分编辑器通用快捷键</h2>
-<table>
-<thead>
-<tr>
-<th>输出后的效果</th>
-<th>Markdown</th>
-<th>快捷键</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Bold</strong></td>
-<td><code>**text**</code></td>
-<td>Ctrl/⌘ + B</td>
-</tr>
-<tr>
-<td><em>Emphasize</em></td>
-<td><code>*text*</code></td>
-<td>Ctrl/⌘ + I</td>
-</tr>
-<tr>
-<td><code>Inline Code</code></td>
-<td>`code`</td>
-<td>选中后 <code>`</code></td>
-</tr>
-</tbody>
-</table>
-<h2 id="常见扩展"> 常见扩展</h2>
-<p>有几种轻量级标记语言是 Markdown 的超集。它们包含 Gruber 的基本语法，并通过添加其他元素 (例如表，代码块，语法突出显示，URL 自动链接和脚注) 在此基础上构建。许多最受欢迎的 Markdown 应用程序使用以下轻量级标记语言之一:</p>
-<ul>
-<li><a href="https://commonmark.org/" target="_blank" rel="noopener noreferrer">CommonMark</a></li>
-<li><a href="https://github.github.com/gfm/" target="_blank" rel="noopener noreferrer">GitHub Flavored Markdown (GFM)</a></li>
-<li><a href="https://michelf.ca/projects/php-markdown/extra/" target="_blank" rel="noopener noreferrer">Markdown Extra</a></li>
-<li><a href="https://fletcherpenney.net/multimarkdown/" target="_blank" rel="noopener noreferrer">MultiMarkdown</a></li>
-<li><a href="https://rmarkdown.rstudio.com/" target="_blank" rel="noopener noreferrer">R Markdown</a></li>
-</ul>
-<h3 id="表格"> 表格</h3>
-<p>表格是 GFM 标准支持的格式。</p>
-<p>你需要创建表头，并使用 <code>---</code> 来分割表头和表身。</p>
-<p>你需要使用 <code>|</code> 来分割每一个表格项目，如果你需要输入 <code>|</code> 请使用 <code>\</code> 转义它。</p>
-<p>你可以在表头分割行处使用 <code>:</code> 来自定义该列的对其</p>
-<details><summary>例子</summary>
-<p><strong>输入</strong>:</p>
-<div><pre><code><span><span><span>|</span><span>     居中      </span><span>|</span><span>                   右对齐 </span><span>|</span><span> 左对齐         </span><span>|</span>
-</span><span><span>|</span> <span>:-----------:</span> <span>|</span> <span>-----------------------:</span> <span>|</span> <span>:-------------</span> <span>|</span>
-</span><span><span>|</span><span> 居中使用<span>`:-:`</span> </span><span>|</span><span>           右对齐使用<span>`-:`</span> </span><span>|</span><span> 左对齐使用<span>`:-`</span> </span><span>|</span>
-<span>|</span><span>       b       </span><span>|</span><span> 表格中包含的 \| 需要转义 </span><span>|</span><span> aaaa           </span><span>|</span>
-<span>|</span><span>       c       </span><span>|</span><span>                     aaaa </span><span>|</span><span> a              </span><span>|</span>
-</span></span></code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p><strong>输出</strong>:</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">居中</th>
-<th style="text-align:right">右对齐</th>
-<th style="text-align:left">左对齐</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">居中使用<code>:-:</code></td>
-<td style="text-align:right">右对齐使用<code>-:</code></td>
-<td style="text-align:left">左对齐使用<code>:-</code></td>
-</tr>
-<tr>
-<td style="text-align:center">b</td>
-<td style="text-align:right">表格中包含的 | 需要转义</td>
-<td style="text-align:left">aaaa</td>
-</tr>
-<tr>
-<td style="text-align:center">c</td>
-<td style="text-align:right">aaaa</td>
-<td style="text-align:left">a</td>
-</tr>
-</tbody>
-</table>
-</details>
-<h3 id="emoji"> Emoji</h3>
-<p>Emoji 是 GFM 标准支持的格式，需要通过 <code>:emoji名称:</code> 来使用 emoji。</p>
-<p>例子: <code>:smile:</code> 😄</p>
-<p>你可以在 <a href="./emoji/">Emoji 列表</a> 找到所有可用的 Emoji。</p>
-<h3 id="删除线"> 删除线</h3>
-<p>你可以使用 <code>~~delete~~</code> 来创建类似 <s>delete</s> 的删除线</p>
-<h3 id="脚注"> 脚注</h3>
-<p>在 Markdown 中使用 <code>[^锚点文字]</code> 来定义脚注。</p>
-<p>在之后的任何位置使用 <code>[^锚点文字]: ...</code> 来描述脚注内容。</p>
-<p>如果脚注包含多个段落，其后的段落应当保持双层缩进。</p>
-<details><summary>例子</summary>
-<p><strong>输入</strong>:</p>
-<div><pre><code>脚注 1 链接[^first].
-
-脚注 2 链接[^second].
-
-行内的脚注^[Text of inline footnote] 定义.
-
-重复的页脚引用[^second].
-
-<span><span>[</span><span>^first</span><span>]</span><span>:</span> 脚注</span> <span><span>**</span><span>可以包含特殊标记</span><span>**</span></span>
-
-<span>    也可以由多个段落组成</span>
-
-<span><span>[</span><span>^second</span><span>]</span><span>:</span> 脚注文字。</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p><strong>输出</strong>:</p>
-<p>脚注 1 链接<sup></sup>.</p>
-<p>脚注 2 链接<sup></sup>.</p>
-<p>行内的脚注<sup></sup> 定义.</p>
-<p>重复的页脚引用<sup></sup>.</p>
-</details>
-<h3 id="自定义标题"> 自定义标题</h3>
-<p>许多 Markdown 处理器支持标题的自定义 ID。</p>
-<p>添加自定义 ID 允许您直接链接到标题并使用 CSS 对其进行修改。要添加自定义标题 ID，请在与标题相同的行上用大括号括起该自定义 ID。</p>
-<details><summary>例子</summary>
-<p><strong>输入</strong>:</p>
-<div><pre><code><span><span>###</span> My Great Heading {#custom-id}</span>
-</code></pre>
-<div><span>1</span><br></div></div><p><strong>渲染结果</strong>:</p>
-<div><pre><code><span><span><span>&lt;</span>h3</span> <span>id</span><span><span>=</span><span>"</span>custom-id<span>"</span></span><span>></span></span>My Great Heading<span><span><span>&lt;/</span>h3</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br></div></div></details>
-<h3 id="定义列表"> 定义列表</h3>
-<p>一些 Markdown 处理器允许您创建术语及其对应定义的定义列表。要创建定义列表，请在第一行上键入术语。在下一行，键入一个冒号，后跟一个空格和定义。</p>
-<details><summary>例子</summary>
-<p><strong>输入</strong>:</p>
-<div><pre><code>First Term
-: This is the definition of the first term.
-
-Second Term
-: This is one definition of the second term.
-: This is another definition of the second term.
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p><strong>渲染结果</strong>:</p>
-<div><pre><code><span><span><span>&lt;</span>dl</span><span>></span></span>
-  <span><span><span>&lt;</span>dt</span><span>></span></span>First Term<span><span><span>&lt;/</span>dt</span><span>></span></span>
-  <span><span><span>&lt;</span>dd</span><span>></span></span>This is the definition of the first term.<span><span><span>&lt;/</span>dd</span><span>></span></span>
-  <span><span><span>&lt;</span>dt</span><span>></span></span>Second Term<span><span><span>&lt;/</span>dt</span><span>></span></span>
-  <span><span><span>&lt;</span>dd</span><span>></span></span>This is one definition of the second term.<span><span><span>&lt;/</span>dd</span><span>></span></span>
-  <span><span><span>&lt;</span>dd</span><span>></span></span>This is another definition of the second term.<span><span><span>&lt;/</span>dd</span><span>></span></span>
-<span><span><span>&lt;/</span>dl</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p><strong>输出</strong>:</p>
-
-<dl>
-  <dt>First Term</dt>
-  <dd>This is the definition of the first term.</dd>
-  <dt>Second Term</dt>
-  <dd>This is one definition of the second term.</dd>
-  <dd>This is another definition of the second term.</dd>
-</dl>
-</details>
-<h3 id="任务列表"> 任务列表</h3>
-<p>任务列表使您可以创建带有复选框的项目列表。</p>
-<p>要创建任务列表，请创建一个列表，并以方括号 <code>[ ]</code> 开头。通过添加空格 <code>x</code> 来改变复选框的勾选情况。</p>
-<details><summary>例子</summary>
-<p><strong>输入</strong>:</p>
-<div><pre><code><span>-</span> [x] Write the press release
-<span>-</span> [ ] Update the website
-<span>-</span> [ ] Contact the media
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p><strong>输出</strong>:</p>
-<ul>
-  <li><input type="checkbox" checked disabled />Write the press release</li>
-  <li><input type="checkbox" disabled />Update the website</li>
-  <li><input type="checkbox" disabled />Contact the media</li>
-</ul>
-</details>
-<hr>
-<section>
-<ol>
-<li id="footnote1"><p>脚注 <strong>可以包含特殊标记</strong></p>
-<p>也可以由多个段落组成 </p>
-</li>
-<li id="footnote2"><p>脚注文字。  </p>
-</li>
-<li id="footnote3"><p>Text of inline footnote </p>
-</li>
-</ol>
-</section>
-]]></content>
-    <author>
-      <name>Lei Xu</name>
-    </author>
-    <category term="Markdown"/>
-    <contributor>
-      <name>Lei Xu</name>
-    </contributor>
-    <rights>Copyright by Lei Xu</rights>
-  </entry>
-  <entry>
-    <title type="html">哎 ...</title>
-    <id>https://peoplewholistentostories.github.io/study/en/</id>
-    <link href="https://peoplewholistentostories.github.io/study/en/"/>
-    <updated>2021-11-11T10:14:11.821Z</updated>
-    <content type="html"><![CDATA[<h1 id="哎"> 哎 ...</h1>
-]]></content>
-    <author>
-      <name>Lei Xu</name>
-    </author>
-    <contributor>
-      <name>Lei Xu</name>
-    </contributor>
-    <rights>Copyright by Lei Xu</rights>
-  </entry>
-  <entry>
-    <title type="html">Markdown 介绍</title>
-    <id>https://peoplewholistentostories.github.io/study/code/language/markdown/intro/</id>
-    <link href="https://peoplewholistentostories.github.io/study/code/language/markdown/intro/"/>
-    <updated>2021-11-11T10:14:11.823Z</updated>
-    <summary type="html"><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
-<p>Markdown 的目标是实现「易读易写」。它的扩展名为 <code>.md</code>。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
-<p>Markdown 的目标是实现「易读易写」。它的扩展名为 <code>.md</code>。</p>
-
-<h2 id="设计理念"> 设计理念</h2>
-<p>Markdown 最需要强调的便是它的可读性。一份使用 Markdown 格式撰写的文件应该可以直接以纯文字发布，并且看起来不会像是由许多标签或是格式指令所构成。</p>
-<p>其语法在设计时受到一些既有 text-to-HTML 格式的影响，包括 <a href="http://docutils.sourceforge.net/mirror/setext.html" target="_blank" rel="noopener noreferrer">Setext</a>、<a href="http://www.aaronsw.com/2002/atx/" target="_blank" rel="noopener noreferrer">atx</a>、<a href="http://textism.com/tools/textile/" target="_blank" rel="noopener noreferrer">Textile</a>、<a href="http://docutils.sourceforge.net/rst.html" target="_blank" rel="noopener noreferrer">reStructuredText</a>、<a href="http://www.triptico.com/software/grutatxt.html" target="_blank" rel="noopener noreferrer">Grutatext</a> 和 <a href="http://ettext.taint.org/doc/" target="_blank" rel="noopener noreferrer">EtText</a>，然而最大灵感来源其实是纯文字的电子邮件格式。因此 Markdown 的语法全由标点符号所组成，并经过严谨慎选，是为了让它们看起来就像所要表达的意思。像是在文字两旁加上星号，看起来就像*强调*。Markdown 的列表看起来，嗯，就是列表。假如你有使用过电子邮件，引言写法看起来就真的像是引用一段文字。</p>
-<p>Markdown 具有一系列衍生版本，用于扩展 Markdown 的功能 (如表格、脚注、内嵌 HTML 等等) ，这些功能并不在最初的设计中，但它们能让 Markdown 转换成更多的格式，例如 LaTeX，Docbook。Markdown 增强版中比较有名的有 Markdown Extra、MultiMarkdown、 Maruku 等。这些衍生版本要么基于工具，如 Pandoc；要么基于网站，如 GitHub 和 Wikipedia，在语法上基本兼容，但在一些语法和渲染效果上有改动。</p>
-<h2 id="用途"> 用途</h2>
-<p>Markdown 的语法有个主要的目的: 用来作为一种网络内容的<strong>写作用语言</strong>。Markdown 的重点在于，它能让文件<strong>更容易阅读、编写</strong>。因此，Markdown 的格式语法只涵盖纯文字可以涵盖的范围。</p>
-<p>Markdown 的语法简洁明了、学习容易，而且功能比纯文本更强，因此有很多人用它写博客。世界上最流行的博客平台 WordPress 能很好的支持 Markdown。</p>
-<p>用于编写说明文档，并且以 “README.md” 的文件名保存在软件的目录下面。</p>
-<p>除此之外，我们还可以快速将 Markdown 转化为演讲 PPT、Word 产品文档、LaTex 论文甚至是用非常少量的代码完成最小可用原型。在数据科学领域，Markdown 已经广泛使用，极大地推进了动态可重复性研究的历史进程。</p>
-<h2 id="特点"> 特点</h2>
-<h3 id="行内-html"> 行内 HTML</h3>
-<p>不在 Markdown 涵盖范围之外的标签，都可以直接在文件里面用 HTML 撰写。不需要额外标注这是 HTML 或是 Markdown；只要直接加标签就可以了。</p>
-<p>只有块元素 ── 比如 <code>&lt;div&gt;</code>、<code>&lt;table&gt;</code>、<code>&lt;pre&gt;</code>、<code>&lt;p&gt;</code> 等标签，必须在前后加上空行，以利与内容区隔。而且这些 (元素) 的开始与结尾标签，不可以用 tab 或是空白来缩进。Markdown 的解析器有智慧型判断，可以避免在块标签前后加上没有必要的 <code>&lt;p&gt;</code> 标签。</p>
-<p>举例来说，在 Markdown 文件里加上一段 HTML 表格:</p>
-<div><pre><code>This is a regular paragraph.
-
-<span><span><span>&lt;</span>table</span><span>></span></span>
-    <span><span><span>&lt;</span>tr</span><span>></span></span>
-        <span><span><span>&lt;</span>td</span><span>></span></span>Foo<span><span><span>&lt;/</span>td</span><span>></span></span>
-    <span><span><span>&lt;/</span>tr</span><span>></span></span>
-<span><span><span>&lt;/</span>table</span><span>></span></span>
-
-This is another regular paragraph.
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><div><p>注意</p>
-<p>Markdown 语法在 HTML 块标签中将不会被进行处理。</p>
-<p>例如，你无法在 HTML 块内使用 Markdown 形式的 <code>*强调*</code>。</p>
-</div>
-<h3 id="特殊字符自动转换"> 特殊字符自动转换</h3>
-<p>简单来说，在 Markdown 中，你无需考虑 HTML 本应考虑的特殊字符转义的问题。</p>
-<p>比如对于 <code>AT&amp;T</code>，Markdown 就会将它转为 <code>AT&amp;amp;T</code>。</p>
-<div><p>HTML 中的特殊字符</p>
-<p>在 HTML 文件中，有两个字符需要特殊处理: <code>&lt;</code> 和 <code>&amp;</code> 。 <code>&lt;</code> 符号用于起始标签，<code>&amp;</code> 符号则用于标记 HTML 实体，如果你只是想要使用这些符号，你必须要使用实体的形式，像是 <code>&amp;lt;</code> 和 <code>&amp;amp;</code>。</p>
-<p>使用 HTML 时，<code>&amp;</code> 符号其实很容易让写作网络文件的人感到困扰。</p>
-<p>如果你要打 「AT&amp;T」 ，你必须要写成 <code>「AT&amp;amp;T」</code>。</p>
-<p>同时你还得转换网址内的 <code>&amp;</code> 符号，如果你要链接到 <code>http://images.google.com/images?num=30&amp;q=larry+bird</code>，你必须要把网址转成 <code>http://images.google.com/images?num=30&amp;amp;q=larry+bird</code>，才能放到链接标签的 <code>href</code> 属性里。</p>
-<p>不用说也知道这很容易忘记，这也可能是 HTML 标准检查所检查到的错误中，数量最多的。</p>
-</div>
-<p>Markdown 即允许你直接使用这些符号。也允许你使用转义符号。</p>
-<p>比如你如果要在文件中插入一个著作权的符号，但是你又不想费力地输入这个不常见的特殊符号，你可以直接在 Markdown 中输入 <code>&amp;copy;</code>，Markdown 会推测出它是转移符号，并把它输出为 ©。</p>
-<p>类似的状况也会发生在 <code>&lt;</code> 符号上，因为 Markdown 支持  ，如果你是使用 <code>&lt;</code> 符号作为 HTML 标签使用，那 Markdown 也不会对它做任何转换，但是如果你是写:</p>
-<div><pre><code>4 &lt; 5
-</code></pre>
-<div><span>1</span><br></div></div><p>Markdown 将会把它转换为:</p>
-<div><pre><code>4 <span title="&lt;">&amp;lt;</span> 5
-</code></pre>
-<div><span>1</span><br></div></div><div><p>提示</p>
-<p>需要注意的是，code 范围内，不论是行内还是块， <code>&lt;</code> 和 <code>&amp;</code> 两个符号都<em>一定</em>会被转换成 HTML 实体，这项特性让你可以很容易地用 Markdown 写 HTML code (和 HTML 相对而言， HTML 语法中，你要把所有的 <code>&lt;</code> 和 <code>&amp;</code> 都转换为 HTML 实体，才能在 HTML 文件里面写出 HTML code。)</p>
-</div>
-<h2 id="编写"> 编写</h2>
-<p>Markdown 就是一个扩展名为 <code>.md</code> 的文本文件。</p>
-<p>理论上你可以使用任何编辑器 (如 <a href="./../../../software/vscode/">VS Code</a>)编辑 Markdown，也可以使用专门的 Markdown 编辑器 (如 <a href="https://typora.io" target="_blank" rel="noopener noreferrer">Typora</a>) 进行编写。</p>
-]]></content>
-    <author>
-      <name>Lei Xu</name>
-    </author>
-    <category term="Markdown"/>
-    <contributor>
-      <name>Lei Xu</name>
-    </contributor>
-    <rights>Copyright by Lei Xu</rights>
-  </entry>
-  <entry>
-    <title type="html">Component disabled</title>
-    <id>https://peoplewholistentostories.github.io/study/guide/disable/</id>
-    <link href="https://peoplewholistentostories.github.io/study/guide/disable/"/>
-    <updated>2021-11-11T10:14:11.839Z</updated>
-    <summary type="html"><![CDATA[<p>You can disable some functions on the page by setting the Frontmatter of the page.</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>You can disable some functions on the page by setting the Frontmatter of the page.</p>
-
-<p>These should be disabled on this page:</p>
-<ul>
-<li>Navbar</li>
-<li>Sidebar</li>
-<li>Breadcrumb</li>
-<li>Page information</li>
-<li>Contributors</li>
-<li>Edit link</li>
-<li>Update time</li>
-<li>Prev/Next link</li>
-<li>Comment</li>
-<li>Footer</li>
-<li>Back to top button</li>
-</ul>
-]]></content>
-    <author>
-      <name>Lei Xu</name>
-    </author>
-    <category term="Guide"/>
-    <contributor>
-      <name>Lei Xu</name>
-    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">符号</title>
     <id>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/symbol/</id>
     <link href="https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/symbol/"/>
-    <updated>2021-11-11T10:14:11.845Z</updated>
+    <updated>2021-11-11T12:31:01.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>1️⃣ <code>:one:</code></li>
 <li>2️⃣ <code>:two:</code></li>
@@ -2063,47 +1682,14 @@ This is another regular paragraph.
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <rights>Copyright by Lei Xu</rights>
-  </entry>
-  <entry>
-    <title type="html">Markdown</title>
-    <id>https://peoplewholistentostories.github.io/study/code/language/markdown/</id>
-    <link href="https://peoplewholistentostories.github.io/study/code/language/markdown/"/>
-    <updated>2021-11-11T10:14:11.845Z</updated>
-    <summary type="html"><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
-<p>Markdown 的目标是实现「易读易写」。</p>
-<p>Markdown 的主要目的是用来作为一种网络内容的<strong>写作用语言</strong>。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
-<p>Markdown 的目标是实现「易读易写」。</p>
-<p>Markdown 的主要目的是用来作为一种网络内容的<strong>写作用语言</strong>。</p>
-
-<h2 id="目录"> 目录</h2>
-<ul>
-<li><a href="./intro.html">简介</a></li>
-<li><a href="./block.html">块元素</a></li>
-<li><a href="./inline.html">行内元素</a></li>
-<li><a href="./extend.html">扩展与其他内容</a></li>
-</ul>
-<h2 id="markdown-效果演示"> Markdown 效果演示</h2>
-<ul>
-<li><a href="./demo.html">查看详情</a></li>
-</ul>
-]]></content>
-    <author>
-      <name>Lei Xu</name>
-    </author>
-    <category term="Markdown"/>
-    <contributor>
-      <name>Lei Xu</name>
-    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Markdown 行内元素</title>
     <id>https://peoplewholistentostories.github.io/study/code/language/markdown/inline/</id>
     <link href="https://peoplewholistentostories.github.io/study/code/language/markdown/inline/"/>
-    <updated>2021-11-11T10:14:11.856Z</updated>
+    <updated>2021-11-11T12:31:01.000Z</updated>
     <content type="html"><![CDATA[<h2 id="链接"> 链接</h2>
 <p>Markdown 支持两种形式的链接语法: <em>行内</em>和<em>参考</em>。</p>
 <p>不管是哪一种，链接的文字都是用 <code>[方括号]</code> 来标记。</p>
@@ -2366,13 +1952,431 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
     <contributor>
       <name>Lei Xu</name>
     </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
+    <rights>Copyright by Lei Xu</rights>
+  </entry>
+  <entry>
+    <title type="html">Markdown 扩展</title>
+    <id>https://peoplewholistentostories.github.io/study/code/language/markdown/extend/</id>
+    <link href="https://peoplewholistentostories.github.io/study/code/language/markdown/extend/"/>
+    <updated>2021-11-11T12:31:01.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="其他特性"> 其他特性</h2>
+<h3 id="自动链接"> 自动链接</h3>
+<p>Markdown 支持比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用尖括号包起来， Markdown 就会自动把它转成链接，链接的文字就和链接位置一样，例如:</p>
+<div><pre><code>&lt;http://example.com/>
+</code></pre>
+<div><span>1</span><br></div></div><p>Markdown 会转为:</p>
+<div><pre><code><span><span><span>&lt;</span>a</span> <span>href</span><span><span>=</span><span>"</span>http://example.com/<span>"</span></span><span>></span></span>http://example.com/<span><span><span>&lt;/</span>a</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br></div></div><p>自动的邮件链接也很类似，只是 Markdown 会先做一个编码转换的过程，把文字字符转成 16 进位码的 HTML 实体，这样的格式可以混淆一些不好的信箱地址收集机器人，例如:</p>
+<div><pre><code><span><span><span>&lt;</span>address@example.com</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br></div></div><p>Markdown 会转成:</p>
+<div><pre><code><span><span><span>&lt;</span>a</span>
+  <span>href</span><span><span>=</span><span>"</span><span title="&#x6D;">&amp;#x6D;</span><span title="&#x61;">&amp;#x61;</span>i<span title="&#x6C;">&amp;#x6C;</span><span title="&#x74;">&amp;#x74;</span><span title="&#x6F;">&amp;#x6F;</span>:<span title="&#x61;">&amp;#x61;</span><span title="&#x64;">&amp;#x64;</span><span title="&#x64;">&amp;#x64;</span><span title="&#x72;">&amp;#x72;</span><span title="&#x65;">&amp;#x65;</span><span title="&#115;">&amp;#115;</span><span title="&#115;">&amp;#115;</span><span title="&#64;">&amp;#64;</span><span title="&#101;">&amp;#101;</span><span title="&#120;">&amp;#120;</span><span title="&#x61;">&amp;#x61;</span><span title="&#109;">&amp;#109;</span><span title="&#x70;">&amp;#x70;</span><span title="&#x6C;">&amp;#x6C;</span>e<span title="&#x2E;">&amp;#x2E;</span><span title="&#99;">&amp;#99;</span><span title="&#111;">&amp;#111;</span><span title="&#109;">&amp;#109;</span><span>"</span></span>
+  <span>></span></span><span title="&#x61;">&amp;#x61;</span><span title="&#x64;">&amp;#x64;</span><span title="&#x64;">&amp;#x64;</span><span title="&#x72;">&amp;#x72;</span><span title="&#x65;">&amp;#x65;</span><span title="&#115;">&amp;#115;</span><span title="&#115;">&amp;#115;</span><span title="&#64;">&amp;#64;</span><span title="&#101;">&amp;#101;</span><span title="&#120;">&amp;#120;</span><span title="&#x61;">&amp;#x61;</span><span title="&#109;">&amp;#109;</span><span title="&#x70;">&amp;#x70;</span><span title="&#x6C;">&amp;#x6C;</span>e<span title="&#x2E;">&amp;#x2E;</span><span title="&#99;">&amp;#99;</span><span title="&#111;">&amp;#111;</span><span title="&#109;">&amp;#109;</span><span><span><span>&lt;/</span>a</span>
+<span>></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>在浏览器里面，这段字串会变成一个可以点击的「address@example.com」链接。</p>
+<p>(这种作法虽然可以混淆不少的机器人，但并无法全部挡下来，不过这样也比什么都不做好些。无论如何，公开你的信箱终究会引来广告信件的。)</p>
+<h3 id="转义字符"> 转义字符</h3>
+<p>Markdown 可以利用反斜线来插入一些在语法中有其它意义的符号，例如: 如果你想要用星号加在文字旁边的方式来做出强调效果 (但不用 <code>&lt;em&gt;</code> 标签) ，你可以在星号的前面加上反斜线:</p>
+<div><pre><code>\*literal asterisks\*
+</code></pre>
+<div><span>1</span><br></div></div><p>Markdown 支持在下面这些符号前面加上反斜线来帮助插入普通的符号:</p>
+<ul>
+<li><code>\</code> 反斜线</li>
+<li><code>`</code> 反引号</li>
+<li><code>*</code> 星号</li>
+<li><code>_</code> 底线</li>
+<li><code>{}</code> 大括号</li>
+<li><code>[]</code> 方括号</li>
+<li><code>()</code> 括号</li>
+<li><code>#</code> 井字号</li>
+<li><code>+</code> 加号</li>
+<li><code>-</code> 减号</li>
+<li><code>.</code> 英文句点</li>
+<li><code>!</code> 惊叹号</li>
+</ul>
+<h2 id="大部分编辑器通用快捷键"> 大部分编辑器通用快捷键</h2>
+<table>
+<thead>
+<tr>
+<th>输出后的效果</th>
+<th>Markdown</th>
+<th>快捷键</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Bold</strong></td>
+<td><code>**text**</code></td>
+<td>Ctrl/⌘ + B</td>
+</tr>
+<tr>
+<td><em>Emphasize</em></td>
+<td><code>*text*</code></td>
+<td>Ctrl/⌘ + I</td>
+</tr>
+<tr>
+<td><code>Inline Code</code></td>
+<td>`code`</td>
+<td>选中后 <code>`</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="常见扩展"> 常见扩展</h2>
+<p>有几种轻量级标记语言是 Markdown 的超集。它们包含 Gruber 的基本语法，并通过添加其他元素 (例如表，代码块，语法突出显示，URL 自动链接和脚注) 在此基础上构建。许多最受欢迎的 Markdown 应用程序使用以下轻量级标记语言之一:</p>
+<ul>
+<li><a href="https://commonmark.org/" target="_blank" rel="noopener noreferrer">CommonMark</a></li>
+<li><a href="https://github.github.com/gfm/" target="_blank" rel="noopener noreferrer">GitHub Flavored Markdown (GFM)</a></li>
+<li><a href="https://michelf.ca/projects/php-markdown/extra/" target="_blank" rel="noopener noreferrer">Markdown Extra</a></li>
+<li><a href="https://fletcherpenney.net/multimarkdown/" target="_blank" rel="noopener noreferrer">MultiMarkdown</a></li>
+<li><a href="https://rmarkdown.rstudio.com/" target="_blank" rel="noopener noreferrer">R Markdown</a></li>
+</ul>
+<h3 id="表格"> 表格</h3>
+<p>表格是 GFM 标准支持的格式。</p>
+<p>你需要创建表头，并使用 <code>---</code> 来分割表头和表身。</p>
+<p>你需要使用 <code>|</code> 来分割每一个表格项目，如果你需要输入 <code>|</code> 请使用 <code>\</code> 转义它。</p>
+<p>你可以在表头分割行处使用 <code>:</code> 来自定义该列的对其</p>
+<details><summary>例子</summary>
+<p><strong>输入</strong>:</p>
+<div><pre><code><span><span><span>|</span><span>     居中      </span><span>|</span><span>                   右对齐 </span><span>|</span><span> 左对齐         </span><span>|</span>
+</span><span><span>|</span> <span>:-----------:</span> <span>|</span> <span>-----------------------:</span> <span>|</span> <span>:-------------</span> <span>|</span>
+</span><span><span>|</span><span> 居中使用<span>`:-:`</span> </span><span>|</span><span>           右对齐使用<span>`-:`</span> </span><span>|</span><span> 左对齐使用<span>`:-`</span> </span><span>|</span>
+<span>|</span><span>       b       </span><span>|</span><span> 表格中包含的 \| 需要转义 </span><span>|</span><span> aaaa           </span><span>|</span>
+<span>|</span><span>       c       </span><span>|</span><span>                     aaaa </span><span>|</span><span> a              </span><span>|</span>
+</span></span></code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p><strong>输出</strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">居中</th>
+<th style="text-align:right">右对齐</th>
+<th style="text-align:left">左对齐</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">居中使用<code>:-:</code></td>
+<td style="text-align:right">右对齐使用<code>-:</code></td>
+<td style="text-align:left">左对齐使用<code>:-</code></td>
+</tr>
+<tr>
+<td style="text-align:center">b</td>
+<td style="text-align:right">表格中包含的 | 需要转义</td>
+<td style="text-align:left">aaaa</td>
+</tr>
+<tr>
+<td style="text-align:center">c</td>
+<td style="text-align:right">aaaa</td>
+<td style="text-align:left">a</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="emoji"> Emoji</h3>
+<p>Emoji 是 GFM 标准支持的格式，需要通过 <code>:emoji名称:</code> 来使用 emoji。</p>
+<p>例子: <code>:smile:</code> 😄</p>
+<p>你可以在 <a href="./emoji/">Emoji 列表</a> 找到所有可用的 Emoji。</p>
+<h3 id="删除线"> 删除线</h3>
+<p>你可以使用 <code>~~delete~~</code> 来创建类似 <s>delete</s> 的删除线</p>
+<h3 id="脚注"> 脚注</h3>
+<p>在 Markdown 中使用 <code>[^锚点文字]</code> 来定义脚注。</p>
+<p>在之后的任何位置使用 <code>[^锚点文字]: ...</code> 来描述脚注内容。</p>
+<p>如果脚注包含多个段落，其后的段落应当保持双层缩进。</p>
+<details><summary>例子</summary>
+<p><strong>输入</strong>:</p>
+<div><pre><code>脚注 1 链接[^first].
+
+脚注 2 链接[^second].
+
+行内的脚注^[Text of inline footnote] 定义.
+
+重复的页脚引用[^second].
+
+<span><span>[</span><span>^first</span><span>]</span><span>:</span> 脚注</span> <span><span>**</span><span>可以包含特殊标记</span><span>**</span></span>
+
+<span>    也可以由多个段落组成</span>
+
+<span><span>[</span><span>^second</span><span>]</span><span>:</span> 脚注文字。</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p><strong>输出</strong>:</p>
+<p>脚注 1 链接<sup></sup>.</p>
+<p>脚注 2 链接<sup></sup>.</p>
+<p>行内的脚注<sup></sup> 定义.</p>
+<p>重复的页脚引用<sup></sup>.</p>
+</details>
+<h3 id="自定义标题"> 自定义标题</h3>
+<p>许多 Markdown 处理器支持标题的自定义 ID。</p>
+<p>添加自定义 ID 允许您直接链接到标题并使用 CSS 对其进行修改。要添加自定义标题 ID，请在与标题相同的行上用大括号括起该自定义 ID。</p>
+<details><summary>例子</summary>
+<p><strong>输入</strong>:</p>
+<div><pre><code><span><span>###</span> My Great Heading {#custom-id}</span>
+</code></pre>
+<div><span>1</span><br></div></div><p><strong>渲染结果</strong>:</p>
+<div><pre><code><span><span><span>&lt;</span>h3</span> <span>id</span><span><span>=</span><span>"</span>custom-id<span>"</span></span><span>></span></span>My Great Heading<span><span><span>&lt;/</span>h3</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br></div></div></details>
+<h3 id="定义列表"> 定义列表</h3>
+<p>一些 Markdown 处理器允许您创建术语及其对应定义的定义列表。要创建定义列表，请在第一行上键入术语。在下一行，键入一个冒号，后跟一个空格和定义。</p>
+<details><summary>例子</summary>
+<p><strong>输入</strong>:</p>
+<div><pre><code>First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p><strong>渲染结果</strong>:</p>
+<div><pre><code><span><span><span>&lt;</span>dl</span><span>></span></span>
+  <span><span><span>&lt;</span>dt</span><span>></span></span>First Term<span><span><span>&lt;/</span>dt</span><span>></span></span>
+  <span><span><span>&lt;</span>dd</span><span>></span></span>This is the definition of the first term.<span><span><span>&lt;/</span>dd</span><span>></span></span>
+  <span><span><span>&lt;</span>dt</span><span>></span></span>Second Term<span><span><span>&lt;/</span>dt</span><span>></span></span>
+  <span><span><span>&lt;</span>dd</span><span>></span></span>This is one definition of the second term.<span><span><span>&lt;/</span>dd</span><span>></span></span>
+  <span><span><span>&lt;</span>dd</span><span>></span></span>This is another definition of the second term.<span><span><span>&lt;/</span>dd</span><span>></span></span>
+<span><span><span>&lt;/</span>dl</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p><strong>输出</strong>:</p>
+
+<dl>
+  <dt>First Term</dt>
+  <dd>This is the definition of the first term.</dd>
+  <dt>Second Term</dt>
+  <dd>This is one definition of the second term.</dd>
+  <dd>This is another definition of the second term.</dd>
+</dl>
+</details>
+<h3 id="任务列表"> 任务列表</h3>
+<p>任务列表使您可以创建带有复选框的项目列表。</p>
+<p>要创建任务列表，请创建一个列表，并以方括号 <code>[ ]</code> 开头。通过添加空格 <code>x</code> 来改变复选框的勾选情况。</p>
+<details><summary>例子</summary>
+<p><strong>输入</strong>:</p>
+<div><pre><code><span>-</span> [x] Write the press release
+<span>-</span> [ ] Update the website
+<span>-</span> [ ] Contact the media
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p><strong>输出</strong>:</p>
+<ul>
+  <li><input type="checkbox" checked disabled />Write the press release</li>
+  <li><input type="checkbox" disabled />Update the website</li>
+  <li><input type="checkbox" disabled />Contact the media</li>
+</ul>
+</details>
+<hr>
+<section>
+<ol>
+<li id="footnote1"><p>脚注 <strong>可以包含特殊标记</strong></p>
+<p>也可以由多个段落组成 </p>
+</li>
+<li id="footnote2"><p>脚注文字。  </p>
+</li>
+<li id="footnote3"><p>Text of inline footnote </p>
+</li>
+</ol>
+</section>
+]]></content>
+    <author>
+      <name>Lei Xu</name>
+    </author>
+    <category term="Markdown"/>
+    <contributor>
+      <name>Lei Xu</name>
+    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
+    <rights>Copyright by Lei Xu</rights>
+  </entry>
+  <entry>
+    <title type="html">Markdown 介绍</title>
+    <id>https://peoplewholistentostories.github.io/study/code/language/markdown/intro/</id>
+    <link href="https://peoplewholistentostories.github.io/study/code/language/markdown/intro/"/>
+    <updated>2021-11-11T12:31:01.000Z</updated>
+    <summary type="html"><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
+<p>Markdown 的目标是实现「易读易写」。它的扩展名为 <code>.md</code>。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
+<p>Markdown 的目标是实现「易读易写」。它的扩展名为 <code>.md</code>。</p>
+
+<h2 id="设计理念"> 设计理念</h2>
+<p>Markdown 最需要强调的便是它的可读性。一份使用 Markdown 格式撰写的文件应该可以直接以纯文字发布，并且看起来不会像是由许多标签或是格式指令所构成。</p>
+<p>其语法在设计时受到一些既有 text-to-HTML 格式的影响，包括 <a href="http://docutils.sourceforge.net/mirror/setext.html" target="_blank" rel="noopener noreferrer">Setext</a>、<a href="http://www.aaronsw.com/2002/atx/" target="_blank" rel="noopener noreferrer">atx</a>、<a href="http://textism.com/tools/textile/" target="_blank" rel="noopener noreferrer">Textile</a>、<a href="http://docutils.sourceforge.net/rst.html" target="_blank" rel="noopener noreferrer">reStructuredText</a>、<a href="http://www.triptico.com/software/grutatxt.html" target="_blank" rel="noopener noreferrer">Grutatext</a> 和 <a href="http://ettext.taint.org/doc/" target="_blank" rel="noopener noreferrer">EtText</a>，然而最大灵感来源其实是纯文字的电子邮件格式。因此 Markdown 的语法全由标点符号所组成，并经过严谨慎选，是为了让它们看起来就像所要表达的意思。像是在文字两旁加上星号，看起来就像*强调*。Markdown 的列表看起来，嗯，就是列表。假如你有使用过电子邮件，引言写法看起来就真的像是引用一段文字。</p>
+<p>Markdown 具有一系列衍生版本，用于扩展 Markdown 的功能 (如表格、脚注、内嵌 HTML 等等) ，这些功能并不在最初的设计中，但它们能让 Markdown 转换成更多的格式，例如 LaTeX，Docbook。Markdown 增强版中比较有名的有 Markdown Extra、MultiMarkdown、 Maruku 等。这些衍生版本要么基于工具，如 Pandoc；要么基于网站，如 GitHub 和 Wikipedia，在语法上基本兼容，但在一些语法和渲染效果上有改动。</p>
+<h2 id="用途"> 用途</h2>
+<p>Markdown 的语法有个主要的目的: 用来作为一种网络内容的<strong>写作用语言</strong>。Markdown 的重点在于，它能让文件<strong>更容易阅读、编写</strong>。因此，Markdown 的格式语法只涵盖纯文字可以涵盖的范围。</p>
+<p>Markdown 的语法简洁明了、学习容易，而且功能比纯文本更强，因此有很多人用它写博客。世界上最流行的博客平台 WordPress 能很好的支持 Markdown。</p>
+<p>用于编写说明文档，并且以 “README.md” 的文件名保存在软件的目录下面。</p>
+<p>除此之外，我们还可以快速将 Markdown 转化为演讲 PPT、Word 产品文档、LaTex 论文甚至是用非常少量的代码完成最小可用原型。在数据科学领域，Markdown 已经广泛使用，极大地推进了动态可重复性研究的历史进程。</p>
+<h2 id="特点"> 特点</h2>
+<h3 id="行内-html"> 行内 HTML</h3>
+<p>不在 Markdown 涵盖范围之外的标签，都可以直接在文件里面用 HTML 撰写。不需要额外标注这是 HTML 或是 Markdown；只要直接加标签就可以了。</p>
+<p>只有块元素 ── 比如 <code>&lt;div&gt;</code>、<code>&lt;table&gt;</code>、<code>&lt;pre&gt;</code>、<code>&lt;p&gt;</code> 等标签，必须在前后加上空行，以利与内容区隔。而且这些 (元素) 的开始与结尾标签，不可以用 tab 或是空白来缩进。Markdown 的解析器有智慧型判断，可以避免在块标签前后加上没有必要的 <code>&lt;p&gt;</code> 标签。</p>
+<p>举例来说，在 Markdown 文件里加上一段 HTML 表格:</p>
+<div><pre><code>This is a regular paragraph.
+
+<span><span><span>&lt;</span>table</span><span>></span></span>
+    <span><span><span>&lt;</span>tr</span><span>></span></span>
+        <span><span><span>&lt;</span>td</span><span>></span></span>Foo<span><span><span>&lt;/</span>td</span><span>></span></span>
+    <span><span><span>&lt;/</span>tr</span><span>></span></span>
+<span><span><span>&lt;/</span>table</span><span>></span></span>
+
+This is another regular paragraph.
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><div><p>注意</p>
+<p>Markdown 语法在 HTML 块标签中将不会被进行处理。</p>
+<p>例如，你无法在 HTML 块内使用 Markdown 形式的 <code>*强调*</code>。</p>
+</div>
+<h3 id="特殊字符自动转换"> 特殊字符自动转换</h3>
+<p>简单来说，在 Markdown 中，你无需考虑 HTML 本应考虑的特殊字符转义的问题。</p>
+<p>比如对于 <code>AT&amp;T</code>，Markdown 就会将它转为 <code>AT&amp;amp;T</code>。</p>
+<div><p>HTML 中的特殊字符</p>
+<p>在 HTML 文件中，有两个字符需要特殊处理: <code>&lt;</code> 和 <code>&amp;</code> 。 <code>&lt;</code> 符号用于起始标签，<code>&amp;</code> 符号则用于标记 HTML 实体，如果你只是想要使用这些符号，你必须要使用实体的形式，像是 <code>&amp;lt;</code> 和 <code>&amp;amp;</code>。</p>
+<p>使用 HTML 时，<code>&amp;</code> 符号其实很容易让写作网络文件的人感到困扰。</p>
+<p>如果你要打 「AT&amp;T」 ，你必须要写成 <code>「AT&amp;amp;T」</code>。</p>
+<p>同时你还得转换网址内的 <code>&amp;</code> 符号，如果你要链接到 <code>http://images.google.com/images?num=30&amp;q=larry+bird</code>，你必须要把网址转成 <code>http://images.google.com/images?num=30&amp;amp;q=larry+bird</code>，才能放到链接标签的 <code>href</code> 属性里。</p>
+<p>不用说也知道这很容易忘记，这也可能是 HTML 标准检查所检查到的错误中，数量最多的。</p>
+</div>
+<p>Markdown 即允许你直接使用这些符号。也允许你使用转义符号。</p>
+<p>比如你如果要在文件中插入一个著作权的符号，但是你又不想费力地输入这个不常见的特殊符号，你可以直接在 Markdown 中输入 <code>&amp;copy;</code>，Markdown 会推测出它是转移符号，并把它输出为 ©。</p>
+<p>类似的状况也会发生在 <code>&lt;</code> 符号上，因为 Markdown 支持  ，如果你是使用 <code>&lt;</code> 符号作为 HTML 标签使用，那 Markdown 也不会对它做任何转换，但是如果你是写:</p>
+<div><pre><code>4 &lt; 5
+</code></pre>
+<div><span>1</span><br></div></div><p>Markdown 将会把它转换为:</p>
+<div><pre><code>4 <span title="&lt;">&amp;lt;</span> 5
+</code></pre>
+<div><span>1</span><br></div></div><div><p>提示</p>
+<p>需要注意的是，code 范围内，不论是行内还是块， <code>&lt;</code> 和 <code>&amp;</code> 两个符号都<em>一定</em>会被转换成 HTML 实体，这项特性让你可以很容易地用 Markdown 写 HTML code (和 HTML 相对而言， HTML 语法中，你要把所有的 <code>&lt;</code> 和 <code>&amp;</code> 都转换为 HTML 实体，才能在 HTML 文件里面写出 HTML code。)</p>
+</div>
+<h2 id="编写"> 编写</h2>
+<p>Markdown 就是一个扩展名为 <code>.md</code> 的文本文件。</p>
+<p>理论上你可以使用任何编辑器 (如 <a href="./../../../software/vscode/">VS Code</a>)编辑 Markdown，也可以使用专门的 Markdown 编辑器 (如 <a href="https://typora.io" target="_blank" rel="noopener noreferrer">Typora</a>) 进行编写。</p>
+]]></content>
+    <author>
+      <name>Lei Xu</name>
+    </author>
+    <category term="Markdown"/>
+    <contributor>
+      <name>Lei Xu</name>
+    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
+    <rights>Copyright by Lei Xu</rights>
+  </entry>
+  <entry>
+    <title type="html">Emoji 列表</title>
+    <id>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/</id>
+    <link href="https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/"/>
+    <updated>2021-11-11T12:31:01.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="人物"> 人物</h2>
+<ul>
+<li><a href="./people.html">点击前往</a></li>
+</ul>
+<h2 id="自然"> 自然</h2>
+<ul>
+<li><a href="./nature.html">点击前往</a></li>
+</ul>
+<h2 id="对象"> 对象</h2>
+<ul>
+<li><a href="./object.html">点击前往</a></li>
+</ul>
+<h2 id="地点"> 地点</h2>
+<ul>
+<li><a href="./place.html">点击前往</a></li>
+</ul>
+<h2 id="符号"> 符号</h2>
+<ul>
+<li><a href="./symbol.html">点击前往</a></li>
+</ul>
+]]></content>
+    <author>
+      <name>Lei Xu</name>
+    </author>
+    <category term="Markdown"/>
+    <contributor>
+      <name>Lei Xu</name>
+    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
+    <rights>Copyright by Lei Xu</rights>
+  </entry>
+  <entry>
+    <title type="html">代码相关</title>
+    <id>https://peoplewholistentostories.github.io/study/code/</id>
+    <link href="https://peoplewholistentostories.github.io/study/code/"/>
+    <updated>2021-11-11T12:31:01.000Z</updated>
+    <summary type="html"><![CDATA[<p>此处是 Mr.Hope 存放的一些代码笔记。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>此处是 Mr.Hope 存放的一些代码笔记。</p>
+
+<h2 id="目录"> 目录</h2>
+<h3 id="代码学习"> 代码学习</h3>
+<ul>
+<li><a href="./language/markdown/">Markdown 教程</a></li>
+</ul>
+]]></content>
+    <author>
+      <name>Lei Xu</name>
+    </author>
+    <contributor>
+      <name>Lei Xu</name>
+    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
+    <rights>Copyright by Lei Xu</rights>
+  </entry>
+  <entry>
+    <title type="html">Markdown</title>
+    <id>https://peoplewholistentostories.github.io/study/code/language/markdown/</id>
+    <link href="https://peoplewholistentostories.github.io/study/code/language/markdown/"/>
+    <updated>2021-11-11T12:31:01.000Z</updated>
+    <summary type="html"><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
+<p>Markdown 的目标是实现「易读易写」。</p>
+<p>Markdown 的主要目的是用来作为一种网络内容的<strong>写作用语言</strong>。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
+<p>Markdown 的目标是实现「易读易写」。</p>
+<p>Markdown 的主要目的是用来作为一种网络内容的<strong>写作用语言</strong>。</p>
+
+<h2 id="目录"> 目录</h2>
+<ul>
+<li><a href="./intro.html">简介</a></li>
+<li><a href="./block.html">块元素</a></li>
+<li><a href="./inline.html">行内元素</a></li>
+<li><a href="./extend.html">扩展与其他内容</a></li>
+</ul>
+<h2 id="markdown-效果演示"> Markdown 效果演示</h2>
+<ul>
+<li><a href="./demo.html">查看详情</a></li>
+</ul>
+]]></content>
+    <author>
+      <name>Lei Xu</name>
+    </author>
+    <category term="Markdown"/>
+    <contributor>
+      <name>Lei Xu</name>
+    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
+    <rights>Copyright by Lei Xu</rights>
+  </entry>
+  <entry>
+    <title type="html">哎 ...</title>
+    <id>https://peoplewholistentostories.github.io/study/en/</id>
+    <link href="https://peoplewholistentostories.github.io/study/en/"/>
+    <updated>2021-11-11T12:31:01.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="哎"> 哎 ...</h1>
+]]></content>
+    <author>
+      <name>Lei Xu</name>
+    </author>
+    <contributor>
+      <name>Lei Xu</name>
+    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Encryption article</title>
     <id>https://peoplewholistentostories.github.io/study/guide/encrypt/</id>
     <link href="https://peoplewholistentostories.github.io/study/guide/encrypt/"/>
-    <updated>2021-11-11T10:14:11.856Z</updated>
+    <updated>2021-11-11T12:31:01.000Z</updated>
     <content type="html"><![CDATA[<h1 id="encryption-article"> Encryption article</h1>
 <p>The actual article content.</p>
 <p>Paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text.</p>
@@ -2385,59 +2389,14 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <rights>Copyright by Lei Xu</rights>
-  </entry>
-  <entry>
-    <title type="html">Guides</title>
-    <id>https://peoplewholistentostories.github.io/study/guide/</id>
-    <link href="https://peoplewholistentostories.github.io/study/guide/"/>
-    <updated>2021-11-11T10:14:11.857Z</updated>
-    <content type="html"><![CDATA[<h1 id="guides"> Guides</h1>
-<ul>
-<li>
-<p><a href="./page.html">Page Config</a></p>
-</li>
-<li>
-<p><a href="./markdown.html">Markdown Enhance</a></p>
-</li>
-<li>
-<p><a href="./disable.html">Function Disable</a></p>
-</li>
-<li>
-<p><a href="./encrypt.html">Encryption Demo</a></p>
-</li>
-</ul>
-]]></content>
-    <author>
-      <name>Lei Xu</name>
-    </author>
-    <category term="Guide"/>
-    <contributor>
-      <name>Lei Xu</name>
-    </contributor>
-    <rights>Copyright by Lei Xu</rights>
-  </entry>
-  <entry>
-    <title type="html">Intro Page</title>
-    <id>https://peoplewholistentostories.github.io/study/intro/</id>
-    <link href="https://peoplewholistentostories.github.io/study/intro/"/>
-    <updated>2021-11-11T10:14:11.857Z</updated>
-    <content type="html"><![CDATA[<h1 id="intro-page"> Intro Page</h1>
-<p>Place your introducation and profile here.</p>
-]]></content>
-    <author>
-      <name>Lei Xu</name>
-    </author>
-    <contributor>
-      <name>Lei Xu</name>
-    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Markdown Enhance</title>
     <id>https://peoplewholistentostories.github.io/study/guide/markdown/</id>
     <link href="https://peoplewholistentostories.github.io/study/guide/markdown/"/>
-    <updated>2021-11-11T10:14:11.868Z</updated>
+    <updated>2021-11-11T12:31:01.000Z</updated>
     <summary type="html"><![CDATA[<p><code>vuepress-theme-hope</code> enables more syntax in Markdown via the built-in <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">md-enhance</a> plugin.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p><code>vuepress-theme-hope</code> enables more syntax in Markdown via the built-in <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">md-enhance</a> plugin.</p>
@@ -2901,67 +2860,14 @@ A custom details container
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <rights>Copyright by Lei Xu</rights>
-  </entry>
-  <entry>
-    <title type="html">代码相关</title>
-    <id>https://peoplewholistentostories.github.io/study/code/</id>
-    <link href="https://peoplewholistentostories.github.io/study/code/"/>
-    <updated>2021-11-11T10:14:11.868Z</updated>
-    <summary type="html"><![CDATA[<p>此处是 Mr.Hope 存放的一些代码笔记。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>此处是 Mr.Hope 存放的一些代码笔记。</p>
-
-<h2 id="目录"> 目录</h2>
-<h3 id="代码学习"> 代码学习</h3>
-<ul>
-<li><a href="./language/markdown/">Markdown 教程</a></li>
-</ul>
-]]></content>
-    <author>
-      <name>Lei Xu</name>
-    </author>
-    <contributor>
-      <name>Lei Xu</name>
-    </contributor>
-    <rights>Copyright by Lei Xu</rights>
-  </entry>
-  <entry>
-    <title type="html">Custom Layout</title>
-    <id>https://peoplewholistentostories.github.io/study/layout/</id>
-    <link href="https://peoplewholistentostories.github.io/study/layout/"/>
-    <updated>2021-11-11T10:14:11.869Z</updated>
-    <content type="html"><![CDATA[<p>You can use slots with markdown and component support to custom page layout.</p>
-<div><p>注意</p>
-<p>This is just a demo, you should add styles according to your own needs.</p>
-
-
-</div>
-<template #page-top><p>Page top content</p>
-</template><template #page-bottom><p>Page bottom content</p>
-</template><template #content-top><p>Content top content</p>
-</template><template #content-bottom><p>Content bottom content</p>
-</template><template #navbar-start><p>Navbar start content</p>
-</template><template #navbar-center><p>Navbar center content</p>
-</template><template #navbar-end><p>Navbar end content</p>
-</template><template #sidebar-top><p>Sidebar top content</p>
-</template><template #sidebar-center><p>Sidebar center content</p>
-</template><template #sidebar-bottom><p>Sidebar bottom content</p>
-</template><p>For details, see <a href="https://vuepress-theme-hope.github.io/guide/layout/custom/" target="_blank" rel="noopener noreferrer">Custom layout</a>.</p>
-]]></content>
-    <author>
-      <name>Lei Xu</name>
-    </author>
-    <contributor>
-      <name>Lei Xu</name>
-    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">page config</title>
     <id>https://peoplewholistentostories.github.io/study/guide/page/</id>
     <link href="https://peoplewholistentostories.github.io/study/guide/page/"/>
-    <updated>2021-11-11T10:14:11.869Z</updated>
+    <updated>2021-11-11T12:31:01.000Z</updated>
     <content type="html"><![CDATA[<h2 id="page-information"> Page information</h2>
 <p>You can set page information in Markdown’s Frontmatter.</p>
 <ul>
@@ -3014,23 +2920,158 @@ A custom details container
     <rights>Copyright by Ms.Hope</rights>
   </entry>
   <entry>
-    <title type="html">Blogs</title>
-    <id>https://peoplewholistentostories.github.io/study/</id>
-    <link href="https://peoplewholistentostories.github.io/study/"/>
-    <updated>2021-11-11T10:14:11.869Z</updated>
+    <title type="html">Component disabled</title>
+    <id>https://peoplewholistentostories.github.io/study/guide/disable/</id>
+    <link href="https://peoplewholistentostories.github.io/study/guide/disable/"/>
+    <updated>2021-11-11T12:31:01.000Z</updated>
+    <summary type="html"><![CDATA[<p>You can disable some functions on the page by setting the Frontmatter of the page.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>You can disable some functions on the page by setting the Frontmatter of the page.</p>
+
+<p>These should be disabled on this page:</p>
+<ul>
+<li>Navbar</li>
+<li>Sidebar</li>
+<li>Breadcrumb</li>
+<li>Page information</li>
+<li>Contributors</li>
+<li>Edit link</li>
+<li>Update time</li>
+<li>Prev/Next link</li>
+<li>Comment</li>
+<li>Footer</li>
+<li>Back to top button</li>
+</ul>
+]]></content>
+    <author>
+      <name>Lei Xu</name>
+    </author>
+    <category term="Guide"/>
+    <contributor>
+      <name>Lei Xu</name>
+    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
+    <rights>Copyright by Lei Xu</rights>
+  </entry>
+  <entry>
+    <title type="html">Intro Page</title>
+    <id>https://peoplewholistentostories.github.io/study/intro/</id>
+    <link href="https://peoplewholistentostories.github.io/study/intro/"/>
+    <updated>2021-11-11T12:31:01.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="intro-page"> Intro Page</h1>
+<p>Place your introducation and profile here.</p>
+]]></content>
     <author>
       <name>Lei Xu</name>
     </author>
     <contributor>
       <name>Lei Xu</name>
     </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
+    <rights>Copyright by Lei Xu</rights>
+  </entry>
+  <entry>
+    <title type="html">Guides</title>
+    <id>https://peoplewholistentostories.github.io/study/guide/</id>
+    <link href="https://peoplewholistentostories.github.io/study/guide/"/>
+    <updated>2021-11-11T12:31:01.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="guides"> Guides</h1>
+<ul>
+<li>
+<p><a href="./page.html">Page Config</a></p>
+</li>
+<li>
+<p><a href="./markdown.html">Markdown Enhance</a></p>
+</li>
+<li>
+<p><a href="./disable.html">Function Disable</a></p>
+</li>
+<li>
+<p><a href="./encrypt.html">Encryption Demo</a></p>
+</li>
+</ul>
+]]></content>
+    <author>
+      <name>Lei Xu</name>
+    </author>
+    <category term="Guide"/>
+    <contributor>
+      <name>Lei Xu</name>
+    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
+    <rights>Copyright by Lei Xu</rights>
+  </entry>
+  <entry>
+    <title type="html">Project home</title>
+    <id>https://peoplewholistentostories.github.io/study/home/</id>
+    <link href="https://peoplewholistentostories.github.io/study/home/"/>
+    <updated>2021-11-11T12:31:01.000Z</updated>
+    <content type="html"><![CDATA[<p>This is an example of a normal homepage. You can place your main content here.</p>
+<p>To use this layout, you need to set <code>home: true</code> in the page front matter.</p>
+<p>For related descriptions of configuration items, please see <a href="https://vuepress-theme-hope.github.io/guide/layout/home/" target="_blank" rel="noopener noreferrer">Project HomePage Layout Config</a>.</p>
+]]></content>
+    <author>
+      <name>Lei Xu</name>
+    </author>
+    <contributor>
+      <name>Lei Xu</name>
+    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
+    <rights>Copyright by Lei Xu</rights>
+  </entry>
+  <entry>
+    <title type="html">Custom Layout</title>
+    <id>https://peoplewholistentostories.github.io/study/layout/</id>
+    <link href="https://peoplewholistentostories.github.io/study/layout/"/>
+    <updated>2021-11-11T12:31:01.000Z</updated>
+    <content type="html"><![CDATA[<p>You can use slots with markdown and component support to custom page layout.</p>
+<div><p>注意</p>
+<p>This is just a demo, you should add styles according to your own needs.</p>
+
+
+</div>
+<template #page-top><p>Page top content</p>
+</template><template #page-bottom><p>Page bottom content</p>
+</template><template #content-top><p>Content top content</p>
+</template><template #content-bottom><p>Content bottom content</p>
+</template><template #navbar-start><p>Navbar start content</p>
+</template><template #navbar-center><p>Navbar center content</p>
+</template><template #navbar-end><p>Navbar end content</p>
+</template><template #sidebar-top><p>Sidebar top content</p>
+</template><template #sidebar-center><p>Sidebar center content</p>
+</template><template #sidebar-bottom><p>Sidebar bottom content</p>
+</template><p>For details, see <a href="https://vuepress-theme-hope.github.io/guide/layout/custom/" target="_blank" rel="noopener noreferrer">Custom layout</a>.</p>
+]]></content>
+    <author>
+      <name>Lei Xu</name>
+    </author>
+    <contributor>
+      <name>Lei Xu</name>
+    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
+    <rights>Copyright by Lei Xu</rights>
+  </entry>
+  <entry>
+    <title type="html">Slide page</title>
+    <id>https://peoplewholistentostories.github.io/study/slides/</id>
+    <link href="https://peoplewholistentostories.github.io/study/slides/"/>
+    <updated>2021-11-11T12:31:01.000Z</updated>
+    <content type="html"><![CDATA[
+<i>Not supported content</i>]]></content>
+    <author>
+      <name>Lei Xu</name>
+    </author>
+    <contributor>
+      <name>Lei Xu</name>
+    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">组件禁用</title>
     <id>https://peoplewholistentostories.github.io/study/zh/guide/disable/</id>
     <link href="https://peoplewholistentostories.github.io/study/zh/guide/disable/"/>
-    <updated>2021-11-11T10:14:11.869Z</updated>
+    <updated>2021-11-11T12:31:01.000Z</updated>
     <summary type="html"><![CDATA[<p>你可以通过设置页面的 Frontmatter，在页面禁用一些功能。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>你可以通过设置页面的 Frontmatter，在页面禁用一些功能。</p>
@@ -3057,167 +3098,28 @@ A custom details container
     <contributor>
       <name>Lei Xu</name>
     </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
-    <title type="html">Slide page</title>
-    <id>https://peoplewholistentostories.github.io/study/slides/</id>
-    <link href="https://peoplewholistentostories.github.io/study/slides/"/>
-    <updated>2021-11-11T10:14:11.870Z</updated>
-    <content type="html"><![CDATA[
-<i>Not supported content</i>]]></content>
+    <title type="html">Blogs</title>
+    <id>https://peoplewholistentostories.github.io/study/</id>
+    <link href="https://peoplewholistentostories.github.io/study/"/>
+    <updated>2021-11-11T12:31:01.000Z</updated>
     <author>
       <name>Lei Xu</name>
     </author>
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <rights>Copyright by Lei Xu</rights>
-  </entry>
-  <entry>
-    <title type="html">Project home</title>
-    <id>https://peoplewholistentostories.github.io/study/home/</id>
-    <link href="https://peoplewholistentostories.github.io/study/home/"/>
-    <updated>2021-11-11T10:14:11.870Z</updated>
-    <content type="html"><![CDATA[<p>This is an example of a normal homepage. You can place your main content here.</p>
-<p>To use this layout, you need to set <code>home: true</code> in the page front matter.</p>
-<p>For related descriptions of configuration items, please see <a href="https://vuepress-theme-hope.github.io/guide/layout/home/" target="_blank" rel="noopener noreferrer">Project HomePage Layout Config</a>.</p>
-]]></content>
-    <author>
-      <name>Lei Xu</name>
-    </author>
-    <contributor>
-      <name>Lei Xu</name>
-    </contributor>
-    <rights>Copyright by Lei Xu</rights>
-  </entry>
-  <entry>
-    <title type="html">主要功能与配置演示</title>
-    <id>https://peoplewholistentostories.github.io/study/zh/guide/</id>
-    <link href="https://peoplewholistentostories.github.io/study/zh/guide/"/>
-    <updated>2021-11-11T10:14:11.870Z</updated>
-    <content type="html"><![CDATA[<h1 id="主要功能与配置演示"> 主要功能与配置演示</h1>
-<ul>
-<li>
-<p><a href="./page.html">页面展示</a></p>
-</li>
-<li>
-<p><a href="./markdown.html">Markdown 展示</a></p>
-</li>
-<li>
-<p><a href="./disable.html">禁用展示</a></p>
-</li>
-<li>
-<p><a href="./encrypt.html">加密展示</a></p>
-</li>
-</ul>
-]]></content>
-    <author>
-      <name>Lei Xu</name>
-    </author>
-    <category term="使用指南"/>
-    <contributor>
-      <name>Lei Xu</name>
-    </contributor>
-    <rights>Copyright by Lei Xu</rights>
-  </entry>
-  <entry>
-    <title type="html">密码加密的文章</title>
-    <id>https://peoplewholistentostories.github.io/study/zh/guide/encrypt/</id>
-    <link href="https://peoplewholistentostories.github.io/study/zh/guide/encrypt/"/>
-    <updated>2021-11-11T10:14:11.870Z</updated>
-    <content type="html"><![CDATA[<h1 id="密码加密的文章"> 密码加密的文章</h1>
-<p>实际的文章内容。</p>
-<p>段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字。</p>
-<p>段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字。</p>
-]]></content>
-    <author>
-      <name>Lei Xu</name>
-    </author>
-    <category term="使用指南"/>
-    <contributor>
-      <name>Lei Xu</name>
-    </contributor>
-    <rights>Copyright by Lei Xu</rights>
-  </entry>
-  <entry>
-    <title type="html">页面配置</title>
-    <id>https://peoplewholistentostories.github.io/study/zh/guide/page/</id>
-    <link href="https://peoplewholistentostories.github.io/study/zh/guide/page/"/>
-    <updated>2021-11-11T10:14:11.871Z</updated>
-    <content type="html"><![CDATA[<h2 id="页面信息"> 页面信息</h2>
-<p>你可以在 Markdown 的 Frontmatter 中设置页面信息。</p>
-<ul>
-<li>
-<p>作者设置为 Ms.Hope。</p>
-</li>
-<li>
-<p>写作时间应为 2020 年 1 月 1 日</p>
-</li>
-<li>
-<p>分类为 “使用指南”</p>
-</li>
-<li>
-<p>标签为 “页面配置” 和 “使用指南”</p>
-</li>
-</ul>
-<h2 id="页面内容"> 页面内容</h2>
-<p>你可以自由在这里书写你的 Markdown。</p>
-<div><p>提示</p>
-<ul>
-<li>
-<p>Markdown 文件夹的图片请使用相对链接 <code>./</code> 进行引用。</p>
-</li>
-<li>
-<p><code>.vuepress/public</code> 文件夹的图片，请使用绝对链接 <code>/</code> 进行引用</p>
-</li>
-</ul>
-</div>
-<p>主题包含了一个自定义徽章章可以使用:</p>
-<blockquote>
-<p>文字结尾应该有深蓝色的 徽章文字 徽章。 <i>Not supported content</i></p>
-</blockquote>
-<h2 id="页面结构"> 页面结构</h2>
-<p>此页面应当包含：</p>
-<ul>
-<li>返回顶部按钮</li>
-<li>路径导航</li>
-<li>评论</li>
-<li>页脚</li>
-</ul>
-]]></content>
-    <author>
-      <name>Ms.Hope</name>
-    </author>
-    <category term="使用指南"/>
-    <contributor>
-      <name>Ms.Hope</name>
-    </contributor>
-    <published>2020-01-01T00:00:00.000Z</published>
-    <rights>Copyright by Ms.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">项目主页</title>
-    <id>https://peoplewholistentostories.github.io/study/zh/home/</id>
-    <link href="https://peoplewholistentostories.github.io/study/zh/home/"/>
-    <updated>2021-11-11T10:14:11.871Z</updated>
-    <content type="html"><![CDATA[<p>这是普通主页的案例。你可以在这里放置你的主体内容。</p>
-<p>想要使用此布局，你需要在页面 front matter 中设置 <code>home: true</code>。</p>
-<p>配置项的相关说明详见 <a href="https://vuepress-theme-hope.github.io/zh/guide/layout/home/" target="_blank" rel="noopener noreferrer">项目主页配置</a>。</p>
-]]></content>
-    <author>
-      <name>Lei Xu</name>
-    </author>
-    <contributor>
-      <name>Lei Xu</name>
-    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Markdown 增强</title>
     <id>https://peoplewholistentostories.github.io/study/zh/guide/markdown/</id>
     <link href="https://peoplewholistentostories.github.io/study/zh/guide/markdown/"/>
-    <updated>2021-11-11T10:14:11.881Z</updated>
+    <updated>2021-11-11T12:31:01.000Z</updated>
     <summary type="html"><![CDATA[<p><code>vuepress-theme-hope</code> 通过内置 <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">md-enhance</a>，在 Markdown 中启用了更多的语法与新功能。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p><code>vuepress-theme-hope</code> 通过内置 <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">md-enhance</a>，在 Markdown 中启用了更多的语法与新功能。</p>
@@ -3681,13 +3583,52 @@ $$
     <contributor>
       <name>Lei Xu</name>
     </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
+    <rights>Copyright by Lei Xu</rights>
+  </entry>
+  <entry>
+    <title type="html">项目主页</title>
+    <id>https://peoplewholistentostories.github.io/study/zh/home/</id>
+    <link href="https://peoplewholistentostories.github.io/study/zh/home/"/>
+    <updated>2021-11-11T12:31:01.000Z</updated>
+    <content type="html"><![CDATA[<p>这是普通主页的案例。你可以在这里放置你的主体内容。</p>
+<p>想要使用此布局，你需要在页面 front matter 中设置 <code>home: true</code>。</p>
+<p>配置项的相关说明详见 <a href="https://vuepress-theme-hope.github.io/zh/guide/layout/home/" target="_blank" rel="noopener noreferrer">项目主页配置</a>。</p>
+]]></content>
+    <author>
+      <name>Lei Xu</name>
+    </author>
+    <contributor>
+      <name>Lei Xu</name>
+    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
+    <rights>Copyright by Lei Xu</rights>
+  </entry>
+  <entry>
+    <title type="html">密码加密的文章</title>
+    <id>https://peoplewholistentostories.github.io/study/zh/guide/encrypt/</id>
+    <link href="https://peoplewholistentostories.github.io/study/zh/guide/encrypt/"/>
+    <updated>2021-11-11T12:31:01.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="密码加密的文章"> 密码加密的文章</h1>
+<p>实际的文章内容。</p>
+<p>段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字。</p>
+<p>段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字。</p>
+]]></content>
+    <author>
+      <name>Lei Xu</name>
+    </author>
+    <category term="使用指南"/>
+    <contributor>
+      <name>Lei Xu</name>
+    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">自定义布局</title>
     <id>https://peoplewholistentostories.github.io/study/zh/layout/</id>
     <link href="https://peoplewholistentostories.github.io/study/zh/layout/"/>
-    <updated>2021-11-11T10:14:11.881Z</updated>
+    <updated>2021-11-11T12:31:01.000Z</updated>
     <content type="html"><![CDATA[<p>您可以使用带有 Markdown 支持的插槽来自定义页面布局。</p>
 <div><p>注意</p>
 <p>此处仅仅是一个演示，你应该自行根据需求添加样式。</p>
@@ -3712,13 +3653,101 @@ $$
     <contributor>
       <name>Lei Xu</name>
     </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
     <rights>Copyright by Lei Xu</rights>
+  </entry>
+  <entry>
+    <title type="html">主要功能与配置演示</title>
+    <id>https://peoplewholistentostories.github.io/study/zh/guide/</id>
+    <link href="https://peoplewholistentostories.github.io/study/zh/guide/"/>
+    <updated>2021-11-11T12:31:01.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="主要功能与配置演示"> 主要功能与配置演示</h1>
+<ul>
+<li>
+<p><a href="./page.html">页面展示</a></p>
+</li>
+<li>
+<p><a href="./markdown.html">Markdown 展示</a></p>
+</li>
+<li>
+<p><a href="./disable.html">禁用展示</a></p>
+</li>
+<li>
+<p><a href="./encrypt.html">加密展示</a></p>
+</li>
+</ul>
+]]></content>
+    <author>
+      <name>Lei Xu</name>
+    </author>
+    <category term="使用指南"/>
+    <contributor>
+      <name>Lei Xu</name>
+    </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
+    <rights>Copyright by Lei Xu</rights>
+  </entry>
+  <entry>
+    <title type="html">页面配置</title>
+    <id>https://peoplewholistentostories.github.io/study/zh/guide/page/</id>
+    <link href="https://peoplewholistentostories.github.io/study/zh/guide/page/"/>
+    <updated>2021-11-11T12:31:01.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="页面信息"> 页面信息</h2>
+<p>你可以在 Markdown 的 Frontmatter 中设置页面信息。</p>
+<ul>
+<li>
+<p>作者设置为 Ms.Hope。</p>
+</li>
+<li>
+<p>写作时间应为 2020 年 1 月 1 日</p>
+</li>
+<li>
+<p>分类为 “使用指南”</p>
+</li>
+<li>
+<p>标签为 “页面配置” 和 “使用指南”</p>
+</li>
+</ul>
+<h2 id="页面内容"> 页面内容</h2>
+<p>你可以自由在这里书写你的 Markdown。</p>
+<div><p>提示</p>
+<ul>
+<li>
+<p>Markdown 文件夹的图片请使用相对链接 <code>./</code> 进行引用。</p>
+</li>
+<li>
+<p><code>.vuepress/public</code> 文件夹的图片，请使用绝对链接 <code>/</code> 进行引用</p>
+</li>
+</ul>
+</div>
+<p>主题包含了一个自定义徽章章可以使用:</p>
+<blockquote>
+<p>文字结尾应该有深蓝色的 徽章文字 徽章。 <i>Not supported content</i></p>
+</blockquote>
+<h2 id="页面结构"> 页面结构</h2>
+<p>此页面应当包含：</p>
+<ul>
+<li>返回顶部按钮</li>
+<li>路径导航</li>
+<li>评论</li>
+<li>页脚</li>
+</ul>
+]]></content>
+    <author>
+      <name>Ms.Hope</name>
+    </author>
+    <category term="使用指南"/>
+    <contributor>
+      <name>Ms.Hope</name>
+    </contributor>
+    <published>2020-01-01T00:00:00.000Z</published>
+    <rights>Copyright by Ms.Hope</rights>
   </entry>
   <entry>
     <title type="html">幻灯片页</title>
     <id>https://peoplewholistentostories.github.io/study/zh/slides/</id>
     <link href="https://peoplewholistentostories.github.io/study/zh/slides/"/>
-    <updated>2021-11-11T10:14:11.882Z</updated>
+    <updated>2021-11-11T12:31:01.000Z</updated>
     <content type="html"><![CDATA[
 <i>Not supported content</i>]]></content>
     <author>
@@ -3727,13 +3756,14 @@ $$
     <contributor>
       <name>Lei Xu</name>
     </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">博客主页</title>
     <id>https://peoplewholistentostories.github.io/study/zh/</id>
     <link href="https://peoplewholistentostories.github.io/study/zh/"/>
-    <updated>2021-11-11T10:14:11.882Z</updated>
+    <updated>2021-11-11T12:31:01.000Z</updated>
     <content type="html"><![CDATA[<p>这是一个博客主页。</p>
 <p>要使用此布局，您应该在页面前端设置 <code>blog: true</code> 和 <code>home: true</code>。</p>
 <p>相关配置文档请见 <a href="https://vuepress-theme-hope.github.io/zh/guide/blog/home/" target="_blank" rel="noopener noreferrer">博客主页</a></p>
@@ -3744,6 +3774,7 @@ $$
     <contributor>
       <name>Lei Xu</name>
     </contributor>
+    <published>2021-11-11T12:31:01.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
 </feed>
