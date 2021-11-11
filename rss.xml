@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <atom:link href="https://peoplewholistentostories.github.io/study/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://peoplewholistentostories.github.io/study/study/rss.xml" rel="self" type="application/rss+xml"/>
     <title>Blogs</title>
-    <link>https://peoplewholistentostories.github.io/study/</link>
+    <link>https://peoplewholistentostories.github.io/study/study/</link>
     <description>工具用得好 下班回家早</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 11 Nov 2021 16:10:36 GMT</pubDate>
-    <lastBuildDate>Thu, 11 Nov 2021 16:10:36 GMT</lastBuildDate>
+    <pubDate>Thu, 11 Nov 2021 16:24:24 GMT</pubDate>
+    <lastBuildDate>Thu, 11 Nov 2021 16:24:24 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by Lei Xu</copyright>
@@ -16,11 +16,11 @@
     <category>使用指南</category>
     <item>
       <title>Markdown 块元素</title>
-      <link>https://peoplewholistentostories.github.io/study/code/language/markdown/block/</link>
-      <guid>https://peoplewholistentostories.github.io/study/code/language/markdown/block/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">Markdown 块元素</source>
+      <link>https://peoplewholistentostories.github.io/study/study/code/language/markdown/block/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/code/language/markdown/block/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">Markdown 块元素</source>
       <category>Markdown</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="段落和换行"> 段落和换行</h2>
 <p>一个段落由一个及以上相连接的行句组成。</p>
 <p>一个即以上的空行则会切分出不同的段落，一般的段落不需要用空白或断行缩进。</p>
@@ -491,11 +491,11 @@ end tell
     </item>
     <item>
       <title>Markdown示例</title>
-      <link>https://peoplewholistentostories.github.io/study/code/language/markdown/demo/</link>
-      <guid>https://peoplewholistentostories.github.io/study/code/language/markdown/demo/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">Markdown示例</source>
+      <link>https://peoplewholistentostories.github.io/study/study/code/language/markdown/demo/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/code/language/markdown/demo/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">Markdown示例</source>
       <category>Markdown</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[
 <h1 id="一级标题"> 一级标题</h1>
 
@@ -738,15 +738,15 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
 <span>```</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div>]]></content:encoded>
-      <enclosure url="https://peoplewholistentostories.github.io/study/logo.png" type="image/png"/>
+      <enclosure url="https://peoplewholistentostories.github.io/study/study/logo.png" type="image/png"/>
     </item>
     <item>
       <title>自然</title>
-      <link>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/nature/</link>
-      <guid>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/nature/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">自然</source>
+      <link>https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/nature/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/nature/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">自然</source>
       <category>Markdown</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<ul>
 <li>☀️ <code>:sunny:</code></li>
 <li>☔️ <code>:umbrella:</code></li>
@@ -866,11 +866,11 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     </item>
     <item>
       <title>对象</title>
-      <link>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/object/</link>
-      <guid>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/object/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">对象</source>
+      <link>https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/object/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/object/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">对象</source>
       <category>Markdown</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<ul>
 <li>🎍 <code>:bamboo:</code></li>
 <li>💝 <code>:gift_heart:</code></li>
@@ -1137,11 +1137,11 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     </item>
     <item>
       <title>人物</title>
-      <link>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/people/</link>
-      <guid>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/people/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">人物</source>
+      <link>https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/people/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/people/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">人物</source>
       <category>Markdown</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<ul>
 <li>😄 <code>:smile:</code></li>
 <li>😆 <code>:laughing:</code></li>
@@ -1326,11 +1326,11 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     </item>
     <item>
       <title>地点</title>
-      <link>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/place/</link>
-      <guid>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/place/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">地点</source>
+      <link>https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/place/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/place/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">地点</source>
       <category>Markdown</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<ul>
 <li>🏠 <code>:house:</code></li>
 <li>🏡 <code>:house_with_garden:</code></li>
@@ -1432,11 +1432,11 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     </item>
     <item>
       <title>Emoji 列表</title>
-      <link>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/</link>
-      <guid>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">Emoji 列表</source>
+      <link>https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">Emoji 列表</source>
       <category>Markdown</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="人物"> 人物</h2>
 <ul>
 <li><a href="./people.html">点击前往</a></li>
@@ -1461,11 +1461,11 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     </item>
     <item>
       <title>符号</title>
-      <link>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/symbol/</link>
-      <guid>https://peoplewholistentostories.github.io/study/code/language/markdown/emoji/symbol/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">符号</source>
+      <link>https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/symbol/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/symbol/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">符号</source>
       <category>Markdown</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<ul>
 <li>1️⃣ <code>:one:</code></li>
 <li>2️⃣ <code>:two:</code></li>
@@ -1662,11 +1662,11 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     </item>
     <item>
       <title>Markdown 扩展</title>
-      <link>https://peoplewholistentostories.github.io/study/code/language/markdown/extend/</link>
-      <guid>https://peoplewholistentostories.github.io/study/code/language/markdown/extend/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">Markdown 扩展</source>
+      <link>https://peoplewholistentostories.github.io/study/study/code/language/markdown/extend/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/code/language/markdown/extend/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">Markdown 扩展</source>
       <category>Markdown</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="其他特性"> 其他特性</h2>
 <h3 id="自动链接"> 自动链接</h3>
 <p>Markdown 支持比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用尖括号包起来， Markdown 就会自动把它转成链接，链接的文字就和链接位置一样，例如:</p>
@@ -1887,11 +1887,11 @@ Second Term
     </item>
     <item>
       <title>Markdown 行内元素</title>
-      <link>https://peoplewholistentostories.github.io/study/code/language/markdown/inline/</link>
-      <guid>https://peoplewholistentostories.github.io/study/code/language/markdown/inline/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">Markdown 行内元素</source>
+      <link>https://peoplewholistentostories.github.io/study/study/code/language/markdown/inline/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/code/language/markdown/inline/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">Markdown 行内元素</source>
       <category>Markdown</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="链接"> 链接</h2>
 <p>Markdown 支持两种形式的链接语法: <em>行内</em>和<em>参考</em>。</p>
 <p>不管是哪一种，链接的文字都是用 <code>[方括号]</code> 来标记。</p>
@@ -2147,18 +2147,18 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
 <p>Markdown 无法指定图片的宽高，如果你需要的话，你可以使用普通的 <code>&lt;img&gt;</code> 标签。</p>
 </div>
 ]]></content:encoded>
-      <enclosure url="https://peoplewholistentostories.github.io/study/path/to/img.jpg" type="image/jpeg"/>
+      <enclosure url="https://peoplewholistentostories.github.io/study/study/path/to/img.jpg" type="image/jpeg"/>
     </item>
     <item>
       <title>Markdown 介绍</title>
-      <link>https://peoplewholistentostories.github.io/study/code/language/markdown/intro/</link>
-      <guid>https://peoplewholistentostories.github.io/study/code/language/markdown/intro/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">Markdown 介绍</source>
+      <link>https://peoplewholistentostories.github.io/study/study/code/language/markdown/intro/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/code/language/markdown/intro/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">Markdown 介绍</source>
       <description>&amp;lt;p&amp;gt;Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。&amp;lt;/p&amp;gt;
 &amp;lt;p&amp;gt;Markdown 的目标是实现「易读易写」。它的扩展名为 &amp;lt;code&amp;gt;.md&amp;lt;/code&amp;gt;。&amp;lt;/p&amp;gt;
 </description>
       <category>Markdown</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
 <p>Markdown 的目标是实现「易读易写」。它的扩展名为 <code>.md</code>。</p>
 
@@ -2218,15 +2218,15 @@ This is another regular paragraph.
     </item>
     <item>
       <title>Markdown</title>
-      <link>https://peoplewholistentostories.github.io/study/code/language/markdown/</link>
-      <guid>https://peoplewholistentostories.github.io/study/code/language/markdown/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">Markdown</source>
+      <link>https://peoplewholistentostories.github.io/study/study/code/language/markdown/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/code/language/markdown/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">Markdown</source>
       <description>&amp;lt;p&amp;gt;Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。&amp;lt;/p&amp;gt;
 &amp;lt;p&amp;gt;Markdown 的目标是实现「易读易写」。&amp;lt;/p&amp;gt;
 &amp;lt;p&amp;gt;Markdown 的主要目的是用来作为一种网络内容的&amp;lt;strong&amp;gt;写作用语言&amp;lt;/strong&amp;gt;。&amp;lt;/p&amp;gt;
 </description>
       <category>Markdown</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
 <p>Markdown 的目标是实现「易读易写」。</p>
 <p>Markdown 的主要目的是用来作为一种网络内容的<strong>写作用语言</strong>。</p>
@@ -2246,12 +2246,12 @@ This is another regular paragraph.
     </item>
     <item>
       <title>代码相关</title>
-      <link>https://peoplewholistentostories.github.io/study/code/</link>
-      <guid>https://peoplewholistentostories.github.io/study/code/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">代码相关</source>
+      <link>https://peoplewholistentostories.github.io/study/study/code/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/code/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">代码相关</source>
       <description>&amp;lt;p&amp;gt;此处是 Mr.Hope 存放的一些代码笔记。&amp;lt;/p&amp;gt;
 </description>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<p>此处是 Mr.Hope 存放的一些代码笔记。</p>
 
 <h2 id="目录"> 目录</h2>
@@ -2263,22 +2263,22 @@ This is another regular paragraph.
     </item>
     <item>
       <title>哎 ...</title>
-      <link>https://peoplewholistentostories.github.io/study/en/</link>
-      <guid>https://peoplewholistentostories.github.io/study/en/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">哎 ...</source>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <link>https://peoplewholistentostories.github.io/study/study/en/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/en/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">哎 ...</source>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="哎"> 哎 ...</h1>
 ]]></content:encoded>
     </item>
     <item>
       <title>Component disabled</title>
-      <link>https://peoplewholistentostories.github.io/study/guide/disable/</link>
-      <guid>https://peoplewholistentostories.github.io/study/guide/disable/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">Component disabled</source>
+      <link>https://peoplewholistentostories.github.io/study/study/guide/disable/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/guide/disable/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">Component disabled</source>
       <description>&amp;lt;p&amp;gt;You can disable some functions on the page by setting the Frontmatter of the page.&amp;lt;/p&amp;gt;
 </description>
       <category>Guide</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<p>You can disable some functions on the page by setting the Frontmatter of the page.</p>
 
 <p>These should be disabled on this page:</p>
@@ -2299,11 +2299,11 @@ This is another regular paragraph.
     </item>
     <item>
       <title>Encryption article</title>
-      <link>https://peoplewholistentostories.github.io/study/guide/encrypt/</link>
-      <guid>https://peoplewholistentostories.github.io/study/guide/encrypt/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">Encryption article</source>
+      <link>https://peoplewholistentostories.github.io/study/study/guide/encrypt/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/guide/encrypt/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">Encryption article</source>
       <category>Guide</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="encryption-article"> Encryption article</h1>
 <p>The actual article content.</p>
 <p>Paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text.</p>
@@ -2312,13 +2312,13 @@ This is another regular paragraph.
     </item>
     <item>
       <title>Markdown Enhance</title>
-      <link>https://peoplewholistentostories.github.io/study/guide/markdown/</link>
-      <guid>https://peoplewholistentostories.github.io/study/guide/markdown/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">Markdown Enhance</source>
+      <link>https://peoplewholistentostories.github.io/study/study/guide/markdown/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/guide/markdown/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">Markdown Enhance</source>
       <description>&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; enables more syntax in Markdown via the built-in &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/md-enhance&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;md-enhance&amp;lt;/a&amp;gt; plugin.&amp;lt;/p&amp;gt;
 </description>
       <category>Guide</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> enables more syntax in Markdown via the built-in <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">md-enhance</a> plugin.</p>
 
 <h2 id="enable-all"> Enable all</h2>
@@ -2776,9 +2776,9 @@ A custom details container
     </item>
     <item>
       <title>page config</title>
-      <link>https://peoplewholistentostories.github.io/study/guide/page/</link>
-      <guid>https://peoplewholistentostories.github.io/study/guide/page/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">page config</source>
+      <link>https://peoplewholistentostories.github.io/study/study/guide/page/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/guide/page/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">page config</source>
       <category>Guide</category>
       <pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="page-information"> Page information</h2>
@@ -2825,11 +2825,11 @@ A custom details container
     </item>
     <item>
       <title>Guides</title>
-      <link>https://peoplewholistentostories.github.io/study/guide/</link>
-      <guid>https://peoplewholistentostories.github.io/study/guide/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">Guides</source>
+      <link>https://peoplewholistentostories.github.io/study/study/guide/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/guide/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">Guides</source>
       <category>Guide</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="guides"> Guides</h1>
 <ul>
 <li>
@@ -2849,10 +2849,10 @@ A custom details container
     </item>
     <item>
       <title>Project home</title>
-      <link>https://peoplewholistentostories.github.io/study/home/</link>
-      <guid>https://peoplewholistentostories.github.io/study/home/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">Project home</source>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <link>https://peoplewholistentostories.github.io/study/study/home/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/home/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">Project home</source>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<p>This is an example of a normal homepage. You can place your main content here.</p>
 <p>To use this layout, you need to set <code>home: true</code> in the page front matter.</p>
 <p>For related descriptions of configuration items, please see <a href="https://vuepress-theme-hope.github.io/guide/layout/home/" target="_blank" rel="noopener noreferrer">Project HomePage Layout Config</a>.</p>
@@ -2860,20 +2860,20 @@ A custom details container
     </item>
     <item>
       <title>Intro Page</title>
-      <link>https://peoplewholistentostories.github.io/study/intro/</link>
-      <guid>https://peoplewholistentostories.github.io/study/intro/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">Intro Page</source>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <link>https://peoplewholistentostories.github.io/study/study/intro/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/intro/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">Intro Page</source>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="intro-page"> Intro Page</h1>
 <p>Place your introducation and profile here.</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>Custom Layout</title>
-      <link>https://peoplewholistentostories.github.io/study/layout/</link>
-      <guid>https://peoplewholistentostories.github.io/study/layout/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">Custom Layout</source>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <link>https://peoplewholistentostories.github.io/study/study/layout/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/layout/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">Custom Layout</source>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<p>You can use slots with markdown and component support to custom page layout.</p>
 <div><p>注意</p>
 <p>This is just a demo, you should add styles according to your own needs.</p>
@@ -2895,30 +2895,30 @@ A custom details container
     </item>
     <item>
       <title>Blogs</title>
-      <link>https://peoplewholistentostories.github.io/study/</link>
-      <guid>https://peoplewholistentostories.github.io/study/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">Blogs</source>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <link>https://peoplewholistentostories.github.io/study/study/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">Blogs</source>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
     </item>
     <item>
       <title>Slide page</title>
-      <link>https://peoplewholistentostories.github.io/study/slides/</link>
-      <guid>https://peoplewholistentostories.github.io/study/slides/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">Slide page</source>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <link>https://peoplewholistentostories.github.io/study/study/slides/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/slides/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">Slide page</source>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[
 <i>Not supported content</i>]]></content:encoded>
-      <enclosure url="https://peoplewholistentostories.github.io/study/logo.svg" type="image/svg+xml"/>
+      <enclosure url="https://peoplewholistentostories.github.io/study/study/logo.svg" type="image/svg+xml"/>
     </item>
     <item>
       <title>组件禁用</title>
-      <link>https://peoplewholistentostories.github.io/study/zh/guide/disable/</link>
-      <guid>https://peoplewholistentostories.github.io/study/zh/guide/disable/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">组件禁用</source>
+      <link>https://peoplewholistentostories.github.io/study/study/zh/guide/disable/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/zh/guide/disable/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">组件禁用</source>
       <description>&amp;lt;p&amp;gt;你可以通过设置页面的 Frontmatter，在页面禁用一些功能。&amp;lt;/p&amp;gt;
 </description>
       <category>使用指南</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<p>你可以通过设置页面的 Frontmatter，在页面禁用一些功能。</p>
 
 <p>本页面应当禁用了:</p>
@@ -2939,11 +2939,11 @@ A custom details container
     </item>
     <item>
       <title>密码加密的文章</title>
-      <link>https://peoplewholistentostories.github.io/study/zh/guide/encrypt/</link>
-      <guid>https://peoplewholistentostories.github.io/study/zh/guide/encrypt/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">密码加密的文章</source>
+      <link>https://peoplewholistentostories.github.io/study/study/zh/guide/encrypt/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/zh/guide/encrypt/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">密码加密的文章</source>
       <category>使用指南</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="密码加密的文章"> 密码加密的文章</h1>
 <p>实际的文章内容。</p>
 <p>段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字。</p>
@@ -2952,13 +2952,13 @@ A custom details container
     </item>
     <item>
       <title>Markdown 增强</title>
-      <link>https://peoplewholistentostories.github.io/study/zh/guide/markdown/</link>
-      <guid>https://peoplewholistentostories.github.io/study/zh/guide/markdown/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">Markdown 增强</source>
+      <link>https://peoplewholistentostories.github.io/study/study/zh/guide/markdown/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/zh/guide/markdown/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">Markdown 增强</source>
       <description>&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 通过内置 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/md-enhance&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;md-enhance&amp;lt;/a&amp;gt;，在 Markdown 中启用了更多的语法与新功能。&amp;lt;/p&amp;gt;
 </description>
       <category>使用指南</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 通过内置 <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">md-enhance</a>，在 Markdown 中启用了更多的语法与新功能。</p>
 
 <h2 id="一键启用"> 一键启用</h2>
@@ -3416,9 +3416,9 @@ $$
     </item>
     <item>
       <title>页面配置</title>
-      <link>https://peoplewholistentostories.github.io/study/zh/guide/page/</link>
-      <guid>https://peoplewholistentostories.github.io/study/zh/guide/page/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">页面配置</source>
+      <link>https://peoplewholistentostories.github.io/study/study/zh/guide/page/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/zh/guide/page/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">页面配置</source>
       <category>使用指南</category>
       <pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="页面信息"> 页面信息</h2>
@@ -3465,11 +3465,11 @@ $$
     </item>
     <item>
       <title>主要功能与配置演示</title>
-      <link>https://peoplewholistentostories.github.io/study/zh/guide/</link>
-      <guid>https://peoplewholistentostories.github.io/study/zh/guide/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">主要功能与配置演示</source>
+      <link>https://peoplewholistentostories.github.io/study/study/zh/guide/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/zh/guide/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">主要功能与配置演示</source>
       <category>使用指南</category>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="主要功能与配置演示"> 主要功能与配置演示</h1>
 <ul>
 <li>
@@ -3489,10 +3489,10 @@ $$
     </item>
     <item>
       <title>项目主页</title>
-      <link>https://peoplewholistentostories.github.io/study/zh/home/</link>
-      <guid>https://peoplewholistentostories.github.io/study/zh/home/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">项目主页</source>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <link>https://peoplewholistentostories.github.io/study/study/zh/home/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/zh/home/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">项目主页</source>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<p>这是普通主页的案例。你可以在这里放置你的主体内容。</p>
 <p>想要使用此布局，你需要在页面 front matter 中设置 <code>home: true</code>。</p>
 <p>配置项的相关说明详见 <a href="https://vuepress-theme-hope.github.io/zh/guide/layout/home/" target="_blank" rel="noopener noreferrer">项目主页配置</a>。</p>
@@ -3500,10 +3500,10 @@ $$
     </item>
     <item>
       <title>自定义布局</title>
-      <link>https://peoplewholistentostories.github.io/study/zh/layout/</link>
-      <guid>https://peoplewholistentostories.github.io/study/zh/layout/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">自定义布局</source>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <link>https://peoplewholistentostories.github.io/study/study/zh/layout/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/zh/layout/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">自定义布局</source>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<p>您可以使用带有 Markdown 支持的插槽来自定义页面布局。</p>
 <div><p>注意</p>
 <p>此处仅仅是一个演示，你应该自行根据需求添加样式。</p>
@@ -3525,10 +3525,10 @@ $$
     </item>
     <item>
       <title>博客主页</title>
-      <link>https://peoplewholistentostories.github.io/study/zh/</link>
-      <guid>https://peoplewholistentostories.github.io/study/zh/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">博客主页</source>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <link>https://peoplewholistentostories.github.io/study/study/zh/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/zh/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">博客主页</source>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[<p>这是一个博客主页。</p>
 <p>要使用此布局，您应该在页面前端设置 <code>blog: true</code> 和 <code>home: true</code>。</p>
 <p>相关配置文档请见 <a href="https://vuepress-theme-hope.github.io/zh/guide/blog/home/" target="_blank" rel="noopener noreferrer">博客主页</a></p>
@@ -3536,13 +3536,13 @@ $$
     </item>
     <item>
       <title>幻灯片页</title>
-      <link>https://peoplewholistentostories.github.io/study/zh/slides/</link>
-      <guid>https://peoplewholistentostories.github.io/study/zh/slides/</guid>
-      <source url="https://peoplewholistentostories.github.io/study/rss.xml">幻灯片页</source>
-      <pubDate>Thu, 11 Nov 2021 16:09:27 GMT</pubDate>
+      <link>https://peoplewholistentostories.github.io/study/study/zh/slides/</link>
+      <guid>https://peoplewholistentostories.github.io/study/study/zh/slides/</guid>
+      <source url="https://peoplewholistentostories.github.io/study/study/rss.xml">幻灯片页</source>
+      <pubDate>Thu, 11 Nov 2021 16:23:20 GMT</pubDate>
       <content:encoded><![CDATA[
 <i>Not supported content</i>]]></content:encoded>
-      <enclosure url="https://peoplewholistentostories.github.io/study/logo.svg" type="image/svg+xml"/>
+      <enclosure url="https://peoplewholistentostories.github.io/study/study/logo.svg" type="image/svg+xml"/>
     </item>
   </channel>
 </rss>
