@@ -21,4 +21,4 @@ jobs:
         with:
           ACCESS_TOKEN: ${{ secrets.BLOG_TOKEN }}   
           branch: gh-pages # The branch the action should deploy to.
-          folder: docs # The folder the action should deploy.
+          folder: dist # The folder the action should deploy.

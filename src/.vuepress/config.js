@@ -6,7 +6,7 @@ module.exports = config({
   title: "Blogs",
   description: "工具用得好 下班回家早",
 
-  dest: "docs",
+  dest: "dist",
 
   head: [
     [
