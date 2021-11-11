@@ -6,7 +6,7 @@ module.exports = config({
   title: 'Blogs',
   description: '工具用得好 下班回家早',
   base: '/study/', // 打包仓库的跟路径
-  dest: 'dist',
+  dest: 'study',
 
   head: [
     ['script', { src: 'https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js' }],
