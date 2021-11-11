@@ -6,7 +6,7 @@
   <author>
     <name>Lei Xu</name>
   </author>
-  <updated>2021-11-11T16:24:24.108Z</updated>
+  <updated>2021-11-11T16:33:32.946Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://peoplewholistentostories.github.io/study/study/atom.xml"/>
   <link rel="alternate" href="https://peoplewholistentostories.github.io/study/study/"/>
@@ -24,7 +24,7 @@
     <title type="html">Markdown 块元素</title>
     <id>https://peoplewholistentostories.github.io/study/study/code/language/markdown/block/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/code/language/markdown/block/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<h2 id="段落和换行"> 段落和换行</h2>
 <p>一个段落由一个及以上相连接的行句组成。</p>
 <p>一个即以上的空行则会切分出不同的段落，一般的段落不需要用空白或断行缩进。</p>
@@ -499,14 +499,14 @@ end tell
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Markdown示例</title>
     <id>https://peoplewholistentostories.github.io/study/study/code/language/markdown/demo/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/code/language/markdown/demo/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[
 <h1 id="一级标题"> 一级标题</h1>
 
@@ -756,14 +756,14 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">自然</title>
     <id>https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/nature/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/nature/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>☀️ <code>:sunny:</code></li>
 <li>☔️ <code>:umbrella:</code></li>
@@ -887,14 +887,14 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">对象</title>
     <id>https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/object/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/object/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>🎍 <code>:bamboo:</code></li>
 <li>💝 <code>:gift_heart:</code></li>
@@ -1165,14 +1165,14 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">人物</title>
     <id>https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/people/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/people/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>😄 <code>:smile:</code></li>
 <li>😆 <code>:laughing:</code></li>
@@ -1361,14 +1361,14 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">地点</title>
     <id>https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/place/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/place/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>🏠 <code>:house:</code></li>
 <li>🏡 <code>:house_with_garden:</code></li>
@@ -1474,14 +1474,14 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Emoji 列表</title>
     <id>https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<h2 id="人物"> 人物</h2>
 <ul>
 <li><a href="./people.html">点击前往</a></li>
@@ -1510,14 +1510,14 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">符号</title>
     <id>https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/symbol/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/code/language/markdown/emoji/symbol/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>1️⃣ <code>:one:</code></li>
 <li>2️⃣ <code>:two:</code></li>
@@ -1718,14 +1718,14 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Markdown 扩展</title>
     <id>https://peoplewholistentostories.github.io/study/study/code/language/markdown/extend/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/code/language/markdown/extend/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<h2 id="其他特性"> 其他特性</h2>
 <h3 id="自动链接"> 自动链接</h3>
 <p>Markdown 支持比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用尖括号包起来， Markdown 就会自动把它转成链接，链接的文字就和链接位置一样，例如:</p>
@@ -1950,14 +1950,14 @@ Second Term
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Markdown 行内元素</title>
     <id>https://peoplewholistentostories.github.io/study/study/code/language/markdown/inline/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/code/language/markdown/inline/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<h2 id="链接"> 链接</h2>
 <p>Markdown 支持两种形式的链接语法: <em>行内</em>和<em>参考</em>。</p>
 <p>不管是哪一种，链接的文字都是用 <code>[方括号]</code> 来标记。</p>
@@ -2220,14 +2220,14 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Markdown 介绍</title>
     <id>https://peoplewholistentostories.github.io/study/study/code/language/markdown/intro/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/code/language/markdown/intro/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <summary type="html"><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
 <p>Markdown 的目标是实现「易读易写」。它的扩展名为 <code>.md</code>。</p>
 ]]></summary>
@@ -2294,14 +2294,14 @@ This is another regular paragraph.
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Markdown</title>
     <id>https://peoplewholistentostories.github.io/study/study/code/language/markdown/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/code/language/markdown/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <summary type="html"><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
 <p>Markdown 的目标是实现「易读易写」。</p>
 <p>Markdown 的主要目的是用来作为一种网络内容的<strong>写作用语言</strong>。</p>
@@ -2329,14 +2329,14 @@ This is another regular paragraph.
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">代码相关</title>
     <id>https://peoplewholistentostories.github.io/study/study/code/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/code/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <summary type="html"><![CDATA[<p>此处是 Mr.Hope 存放的一些代码笔记。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>此处是 Mr.Hope 存放的一些代码笔记。</p>
@@ -2353,14 +2353,14 @@ This is another regular paragraph.
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">哎 ...</title>
     <id>https://peoplewholistentostories.github.io/study/study/en/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/en/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<h1 id="哎"> 哎 ...</h1>
 ]]></content>
     <author>
@@ -2369,14 +2369,14 @@ This is another regular paragraph.
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Component disabled</title>
     <id>https://peoplewholistentostories.github.io/study/study/guide/disable/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/guide/disable/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <summary type="html"><![CDATA[<p>You can disable some functions on the page by setting the Frontmatter of the page.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>You can disable some functions on the page by setting the Frontmatter of the page.</p>
@@ -2403,14 +2403,14 @@ This is another regular paragraph.
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Encryption article</title>
     <id>https://peoplewholistentostories.github.io/study/study/guide/encrypt/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/guide/encrypt/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<h1 id="encryption-article"> Encryption article</h1>
 <p>The actual article content.</p>
 <p>Paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text.</p>
@@ -2423,14 +2423,14 @@ This is another regular paragraph.
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Markdown Enhance</title>
     <id>https://peoplewholistentostories.github.io/study/study/guide/markdown/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/guide/markdown/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <summary type="html"><![CDATA[<p><code>vuepress-theme-hope</code> enables more syntax in Markdown via the built-in <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">md-enhance</a> plugin.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p><code>vuepress-theme-hope</code> enables more syntax in Markdown via the built-in <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">md-enhance</a> plugin.</p>
@@ -2894,14 +2894,14 @@ A custom details container
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">page config</title>
     <id>https://peoplewholistentostories.github.io/study/study/guide/page/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/guide/page/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<h2 id="page-information"> Page information</h2>
 <p>You can set page information in Markdown’s Frontmatter.</p>
 <ul>
@@ -2957,7 +2957,7 @@ A custom details container
     <title type="html">Guides</title>
     <id>https://peoplewholistentostories.github.io/study/study/guide/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/guide/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<h1 id="guides"> Guides</h1>
 <ul>
 <li>
@@ -2981,14 +2981,14 @@ A custom details container
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Project home</title>
     <id>https://peoplewholistentostories.github.io/study/study/home/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/home/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<p>This is an example of a normal homepage. You can place your main content here.</p>
 <p>To use this layout, you need to set <code>home: true</code> in the page front matter.</p>
 <p>For related descriptions of configuration items, please see <a href="https://vuepress-theme-hope.github.io/guide/layout/home/" target="_blank" rel="noopener noreferrer">Project HomePage Layout Config</a>.</p>
@@ -2999,14 +2999,14 @@ A custom details container
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Intro Page</title>
     <id>https://peoplewholistentostories.github.io/study/study/intro/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/intro/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<h1 id="intro-page"> Intro Page</h1>
 <p>Place your introducation and profile here.</p>
 ]]></content>
@@ -3016,14 +3016,14 @@ A custom details container
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Custom Layout</title>
     <id>https://peoplewholistentostories.github.io/study/study/layout/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/layout/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<p>You can use slots with markdown and component support to custom page layout.</p>
 <div><p>注意</p>
 <p>This is just a demo, you should add styles according to your own needs.</p>
@@ -3048,28 +3048,28 @@ A custom details container
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Blogs</title>
     <id>https://peoplewholistentostories.github.io/study/study/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <author>
       <name>Lei Xu</name>
     </author>
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Slide page</title>
     <id>https://peoplewholistentostories.github.io/study/study/slides/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/slides/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[
 <i>Not supported content</i>]]></content>
     <author>
@@ -3078,14 +3078,14 @@ A custom details container
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">组件禁用</title>
     <id>https://peoplewholistentostories.github.io/study/study/zh/guide/disable/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/zh/guide/disable/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <summary type="html"><![CDATA[<p>你可以通过设置页面的 Frontmatter，在页面禁用一些功能。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>你可以通过设置页面的 Frontmatter，在页面禁用一些功能。</p>
@@ -3112,14 +3112,14 @@ A custom details container
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">密码加密的文章</title>
     <id>https://peoplewholistentostories.github.io/study/study/zh/guide/encrypt/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/zh/guide/encrypt/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<h1 id="密码加密的文章"> 密码加密的文章</h1>
 <p>实际的文章内容。</p>
 <p>段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字。</p>
@@ -3132,14 +3132,14 @@ A custom details container
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Markdown 增强</title>
     <id>https://peoplewholistentostories.github.io/study/study/zh/guide/markdown/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/zh/guide/markdown/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <summary type="html"><![CDATA[<p><code>vuepress-theme-hope</code> 通过内置 <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">md-enhance</a>，在 Markdown 中启用了更多的语法与新功能。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p><code>vuepress-theme-hope</code> 通过内置 <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">md-enhance</a>，在 Markdown 中启用了更多的语法与新功能。</p>
@@ -3603,14 +3603,14 @@ $$
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">页面配置</title>
     <id>https://peoplewholistentostories.github.io/study/study/zh/guide/page/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/zh/guide/page/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<h2 id="页面信息"> 页面信息</h2>
 <p>你可以在 Markdown 的 Frontmatter 中设置页面信息。</p>
 <ul>
@@ -3666,7 +3666,7 @@ $$
     <title type="html">主要功能与配置演示</title>
     <id>https://peoplewholistentostories.github.io/study/study/zh/guide/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/zh/guide/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<h1 id="主要功能与配置演示"> 主要功能与配置演示</h1>
 <ul>
 <li>
@@ -3690,14 +3690,14 @@ $$
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">项目主页</title>
     <id>https://peoplewholistentostories.github.io/study/study/zh/home/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/zh/home/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<p>这是普通主页的案例。你可以在这里放置你的主体内容。</p>
 <p>想要使用此布局，你需要在页面 front matter 中设置 <code>home: true</code>。</p>
 <p>配置项的相关说明详见 <a href="https://vuepress-theme-hope.github.io/zh/guide/layout/home/" target="_blank" rel="noopener noreferrer">项目主页配置</a>。</p>
@@ -3708,14 +3708,14 @@ $$
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">自定义布局</title>
     <id>https://peoplewholistentostories.github.io/study/study/zh/layout/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/zh/layout/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<p>您可以使用带有 Markdown 支持的插槽来自定义页面布局。</p>
 <div><p>注意</p>
 <p>此处仅仅是一个演示，你应该自行根据需求添加样式。</p>
@@ -3740,14 +3740,14 @@ $$
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">博客主页</title>
     <id>https://peoplewholistentostories.github.io/study/study/zh/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/zh/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[<p>这是一个博客主页。</p>
 <p>要使用此布局，您应该在页面前端设置 <code>blog: true</code> 和 <code>home: true</code>。</p>
 <p>相关配置文档请见 <a href="https://vuepress-theme-hope.github.io/zh/guide/blog/home/" target="_blank" rel="noopener noreferrer">博客主页</a></p>
@@ -3758,14 +3758,14 @@ $$
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">幻灯片页</title>
     <id>https://peoplewholistentostories.github.io/study/study/zh/slides/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/zh/slides/"/>
-    <updated>2021-11-11T16:23:20.000Z</updated>
+    <updated>2021-11-11T16:32:32.000Z</updated>
     <content type="html"><![CDATA[
 <i>Not supported content</i>]]></content>
     <author>
@@ -3774,7 +3774,7 @@ $$
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2021-11-11T16:23:20.000Z</published>
+    <published>2021-11-11T16:32:32.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
 </feed>
