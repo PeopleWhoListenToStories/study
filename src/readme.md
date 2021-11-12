@@ -28,7 +28,7 @@ project:
   #   desc: Detailed description of the article
   #   link: https://link.to.your.article
 
-    - name: 软件教程
+    - name: 代码笔记
       type: book
       link: /code/
 

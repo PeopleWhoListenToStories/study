@@ -3,11 +3,11 @@ const navBarConfig = require('./config/navbar')
 const sideBarConfig = require('./config/sideBar')
 
 module.exports = config({
-  title: 'Blogs',
+  title: '记录生活',
   description: '工具用得好 下班回家早',
   base: '/study/', // 打包仓库的跟路径
   dest: 'study',
-
+  comment: true,
   head: [
     ['script', { src: 'https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js' }],
     [
@@ -35,9 +35,18 @@ module.exports = config({
     repo: 'https://github.com/PeopleWhoListenToStories/study',
     repoDisplay: false,
     docsDir: 'src',
+    timeline: '明天你是否会想起',
     nav: navBarConfig.zh,
     sidebar: sideBarConfig.zh,
     shouldPrefetch: filename => !filename.includes('page-'),
+
+    themeColor: {
+      blue: "#2196f3",
+      red: "#f26d6d",
+      green: "#3eaf7c",
+      orange: "#fb9b5f",
+    },
+
     sidebar: {
       '/': [
         '',
@@ -75,10 +84,15 @@ module.exports = config({
       content: 'Copyright © 2021-present'
     },
 
-    // comment: {
-    //   type: "waline",
-    //   serverURL: "https://vuepress-theme-hope-comment.vercel.app",
-    // },
+    comment: {
+      el:"",
+      type: 'valine',
+      appId: 'K7Gnu90TqMOuwdnWEwRYdsR8-MdYXbMMI',
+      appKey: 'mbFqf2MNrNWAuwysuvQ3RxnF',
+      placeholder:"请输入...",
+      recordIP: true,
+      avatar:"retro",
+    },
 
     copyright: {
       status: 'global'

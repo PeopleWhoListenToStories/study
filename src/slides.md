@@ -18,7 +18,7 @@ A simple slide demo and useful hints.
 
 <!-- .element: class="r-fit-text" -->
 
-> By Mr.Hope. Please scroll mousewheel down to the next slide
+> By Lei Xu. Please scroll mousewheel down to the next slide
 
 ---
 
