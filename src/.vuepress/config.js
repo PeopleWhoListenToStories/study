@@ -3,7 +3,7 @@ const navBarConfig = require('./config/navbar')
 const sideBarConfig = require('./config/sideBar')
 
 module.exports = config({
-  title: '记录生活',
+  title: 'Lei Xu',
   description: '工具用得好 下班回家早',
   base: '/study/', // 打包仓库的跟路径
   dest: 'study',
