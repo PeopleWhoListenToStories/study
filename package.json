@@ -12,7 +12,6 @@
     "comsol:get-words": "node script/comsol/get-words.js"
   },
   "devDependencies": {
-    "@mr-hope/vuepress-plugin-comment": "^1.20.3",
     "vuepress": "^1.8.2",
     "vuepress-theme-hope": "^1.20.5"
   }
