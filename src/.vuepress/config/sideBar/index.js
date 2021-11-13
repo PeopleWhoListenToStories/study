@@ -1,19 +1,24 @@
-const { sidebarConfig } = require('vuepress-theme-hope')
+const { sidebarConfig } = require("vuepress-theme-hope");
 
 module.exports = {
   zh: sidebarConfig({
+
+    "/code/": require("./code"),
+
+    "/about/": ["", "site"],
+
     // fallback
-    '/': ['', 'note/', 'code/', 'software/', 'about/']
+    "/": ["", "note/", "code/", "about/"],
   }),
 
   en: sidebarConfig({
-    '/en/note/': [''],
+    "/en/note/": [""],
 
-    '/en/code/': [''],
+    "/en/code/": [""],
 
-    '/en/about/': ['', 'site'],
+    "/en/about/": ["", "site"],
 
     // fallback
-    '/en/': ['', 'code/', 'about/']
-  })
-}
+    "/en/": ["", "code/", "about/"],
+  }),
+};

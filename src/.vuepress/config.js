@@ -47,21 +47,6 @@ module.exports = config({
       orange: "#fb9b5f",
     },
 
-    sidebar: {
-      '/': [
-        '',
-        'home',
-        'slides',
-        'layout',
-        {
-          title: 'Guide',
-          icon: 'creative',
-          prefix: 'guide/',
-          children: ['', 'page', 'markdown', 'disable', 'encrypt']
-        }
-      ]
-    },
-
     locales: {
       /** 英文设置 */
       '/en/': {
