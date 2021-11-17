@@ -3,6 +3,7 @@ node_modules
 .Todo.md
 .idea
 .github
+index.js
 
 # Log files
 npm-debug.log*

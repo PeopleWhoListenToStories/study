@@ -43,23 +43,25 @@ module.exports = {
         // },
       ],
     },
-    // {
-    //   text: "软件教程",
-    //   icon: "software",
-    //   prefix: "/software/",
-    //   items: [
-    //     {
-    //       text: "软件教程",
-    //       icon: "software",
-    //       link: "",
-    //       items: [
-    //         { text: "VS Code", icon: "vscode", link: "vscode/" },
-    //         { text: "Git", icon: "git", link: "git/" },
-    //         { text: "COMSOL", icon: "app", link: "comsol/" },
-    //       ],
-    //     },
-    //   ],
-    // },
+    {
+      text: "每日一题",
+      icon: "dailytopic",
+      prefix: "/dailytopic/",
+      items: [
+        {
+          text: "基础算法题",
+          icon: "software",
+          link: "",
+          items: [
+            { text: "数组", icon: "linux", link: "array/" },
+            { text: "字符串", icon: "linux", link: "string/" },
+
+            // { text: "Git", icon: "git", link: "git/" },
+            // { text: "COMSOL", icon: "app", link: "comsol/" },
+          ],
+        },
+      ],
+    },
   ]),
 
   en: navbarConfig([
@@ -69,10 +71,10 @@ module.exports = {
       icon: "code",
       items: [{ text: "Code Note", icon: "code", link: "/en/code/" }],
     },
-    // {
-    //   text: "Software",
-    //   icon: "software",
-    //   link: "/en/software/",
-    // },
+    {
+      text: "A daily topic",
+      icon: "software",
+      link: "/en/dailytopic/",
+    },
   ]),
 };
