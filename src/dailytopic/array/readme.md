@@ -12,3 +12,4 @@ breadcrumb: false
 ## 代码学习
 
 - [两数之和](two-numbers.md)
+- [移动零](Modify-the-array-position)
