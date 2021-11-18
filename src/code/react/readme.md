@@ -1,11 +1,14 @@
 ---
-title:React
-icon: reactjs
-category:React
+title: React
+icon: react
+time: 2020-11-17
+category: 前端
 tags:
-  -React
-  - 软件
+  - 网页
+  - React
 ---
 
-## 日积月累
-- [React.js 动态主题切换](react-theme.md)
+## 记录React项目中的问题
+- [React Theme主题配置](react-theme.md)
+
+
