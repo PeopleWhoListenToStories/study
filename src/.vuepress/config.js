@@ -3,11 +3,10 @@ const navBarConfig = require('./config/navbar')
 const sideBarConfig = require('./config/sideBar')
 
 module.exports = config({
-  title: 'Lei Xu',
+  title: '明天你好',
   description: '工具用得好 下班回家早',
   base: '/study/', // 打包仓库的跟路径
   dest: 'study',
-  timeline: '明天你是否会想起',
   comment: true,
   head: [
     ['script', { src: 'https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js' }],
@@ -59,6 +58,7 @@ module.exports = config({
     blog: {
       intro: '/intro/',
       sidebarDisplay: 'mobile',
+      timeline:'明天你是否会想起',
       links: {
         Github: 'https://github.com/PeopleWhoListenToStories',
         Gmail: 'mailto:leisuyaemail@gmail.com'
