@@ -4,10 +4,12 @@ const sideBarConfig = require('./config/sideBar')
 
 module.exports = config({
   title: '明天你好',
-  description: '工具用得好 下班回家早',
+  description: '不忘初心 方得始终',
+
   base: '/study/', // 打包仓库的跟路径
   dest: 'study',
   comment: true,
+
   head: [
     ['script', { src: 'https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js' }],
     [
@@ -30,7 +32,7 @@ module.exports = config({
 
   themeConfig: {
     logo: '/logo.png',
-    hostname: 'https://peoplewholistentostories.github.io/study/',
+    hostname: 'https://peoplewholistentostories.github.io/study',
     author: 'Lei Xu',
     repo: 'https://github.com/PeopleWhoListenToStories/study',
     repoDisplay: false,
@@ -56,7 +58,7 @@ module.exports = config({
     },
 
     blog: {
-      intro: '/intro/',
+      intro: '/about/',
       sidebarDisplay: 'mobile',
       timeline:'明天你是否会想起',
       links: {
@@ -120,63 +122,18 @@ module.exports = config({
     },
 
     pwa: {
-      favicon: '/favicon.ico',
-      cachePic: true,
+      favicon: "/favicon.ico",
+      themeColor: "#5c92d1",
+      cacheHTML: false,
+      maxSize: 3072,
       apple: {
-        icon: '/assets/icon/apple-icon-152.png',
-        statusBarColor: 'black'
+        icon: "/assets/icon/apple-icon-152.png",
+        statusBarColor: "black",
       },
       msTile: {
-        image: '/assets/icon/ms-icon-144.png',
-        color: '#ffffff'
+        image: "/assets/icon/ms-icon-144.png",
+        color: "#ffffff",
       },
-      manifest: {
-        icons: [
-          {
-            src: '/assets/icon/chrome-mask-512.png',
-            sizes: '512x512',
-            purpose: 'maskable',
-            type: 'image/png'
-          },
-          {
-            src: '/assets/icon/chrome-mask-192.png',
-            sizes: '192x192',
-            purpose: 'maskable',
-            type: 'image/png'
-          },
-          {
-            src: '/assets/icon/chrome-512.png',
-            sizes: '512x512',
-            type: 'image/png'
-          },
-          {
-            src: '/assets/icon/chrome-192.png',
-            sizes: '192x192',
-            type: 'image/png'
-          }
-        ],
-        shortcuts: [
-          {
-            name: 'Guide',
-            short_name: 'Guide',
-            url: '/guide/',
-            icons: [
-              {
-                src: '/assets/icon/guide-maskable.png',
-                sizes: '192x192',
-                purpose: 'maskable',
-                type: 'image/png'
-              },
-              {
-                src: '/assets/icon/guide-monochrome.png',
-                sizes: '192x192',
-                purpose: 'monochrome',
-                type: 'image/png'
-              }
-            ]
-          }
-        ]
-      }
-    }
+    },
   }
 })

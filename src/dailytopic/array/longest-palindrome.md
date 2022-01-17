@@ -1,9 +1,9 @@
 ---
 icon: info
 time: 2020-11-18
-category: Linux
+category: 基础
 tags:
-  - 介绍
+  - 学习
 ---
 
 * [LeetCode 5] 给你一个字符串 s，找到 s 中最长的回文子串。

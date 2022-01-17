@@ -1,9 +1,9 @@
 ---
 icon: info
 time: 2020-11-18
-category: Linux
+category: 基础
 tags:
-  - 介绍
+  - 学习
 ---
 
 - [LeetCode 283] 给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序 (必须在原数组上操作，不能拷贝额外的数组)

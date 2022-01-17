@@ -1,8 +1,8 @@
-const { navbarConfig } = require("vuepress-theme-hope");
+const { navbarConfig } = require('vuepress-theme-hope')
 
 module.exports = {
   zh: navbarConfig([
-    { text: "主页", icon: "home", link: "/" },
+    { text: '主页', icon: 'home', link: '/' },
     // {
     //   text: "随笔",
     //   icon: "note",
@@ -29,10 +29,10 @@ module.exports = {
     //   ],
     // },
     {
-      text: "代码笔记",
-      icon: "code",
+      text: '代码笔记',
+      icon: 'code',
       items: [
-        { text: "代码笔记", icon: "code", link: "/code/" },
+        { text: '代码笔记', icon: 'code', link: '/code/' }
         // {
         //   text: "产品设计",
         //   items: [{ text: "设计教程", icon: "skin", link: "/design/" }],
@@ -41,40 +41,40 @@ module.exports = {
         //   text: "后端运维",
         //   items: [{ text: "Linux 教程", icon: "linux", link: "/linux/" }],
         // },
-      ],
+      ]
     },
     {
-      text: "每日一题",
-      icon: "dailytopic",
-      prefix: "/dailytopic/",
+      text: '每日一题',
+      icon: 'note',
+      prefix: '/dailytopic/',
       items: [
         {
-          text: "基础算法题",
-          icon: "software",
-          link: "",
+          text: '算法',
+          icon: 'note',
+          link: '',
           items: [
-            { text: "数组", icon: "linux", link: "array/" },
-            { text: "字符串", icon: "linux", link: "string/" },
-
+            { text: '数组', icon: 'note', link: 'array/' },
+            { text: '字符串', icon: 'note', link: 'string/' },
+            { text: '其他', icon: 'note', link: 'other/' }
             // { text: "Git", icon: "git", link: "git/" },
             // { text: "COMSOL", icon: "app", link: "comsol/" },
-          ],
-        },
-      ],
-    },
+          ]
+        }
+      ]
+    }
   ]),
 
   en: navbarConfig([
-    { text: "Home", link: "/en/", icon: "home" },
+    { text: 'Home', link: '/en/', icon: 'home' },
     {
-      text: "Code Note",
-      icon: "code",
-      items: [{ text: "Code Note", icon: "code", link: "/en/code/" }],
+      text: 'Code Note',
+      icon: 'code',
+      items: [{ text: 'Code Note', icon: 'code', link: '/en/code/' }]
     },
     {
-      text: "A daily topic",
-      icon: "software",
-      link: "/en/dailytopic/",
-    },
-  ]),
-};
+      text: 'A daily topic',
+      icon: 'software',
+      link: '/en/dailytopic/'
+    }
+  ])
+}
