@@ -6,7 +6,7 @@
   <author>
     <name>Lei Xu</name>
   </author>
-  <updated>2022-01-17T16:51:45.158Z</updated>
+  <updated>2022-02-09T16:24:45.278Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://peoplewholistentostories.github.io/study/study/atom.xml"/>
   <link rel="alternate" href="https://peoplewholistentostories.github.io/study/study/"/>
@@ -25,7 +25,7 @@
     <title type="html">LeiXu 介绍</title>
     <id>https://peoplewholistentostories.github.io/study/study/about/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/about/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <content type="html"><![CDATA[<i>Not supported content</i>]]></content>
     <author>
       <name>Lei Xu</name>
@@ -33,14 +33,14 @@
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2022-01-17T16:50:48.000Z</published>
+    <published>2022-02-09T16:22:49.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Docker</title>
     <id>https://peoplewholistentostories.github.io/study/study/code/docker/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/code/docker/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <content type="html"><![CDATA[<h2 id="docker-安装"> Docker 安装</h2>
 <ul>
 <li><a href="./gitlab.html">阿里云服务器 Docker安装gitlab</a></li>
@@ -57,10 +57,86 @@
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
+    <title type="html">Git</title>
+    <id>https://peoplewholistentostories.github.io/study/study/code/git/</id>
+    <link href="https://peoplewholistentostories.github.io/study/study/code/git/"/>
+    <updated>2022-02-09T16:22:49.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="git-使用大全"> Git 使用大全</h2>
+<h3 id="git提交"> Git提交</h3>
+<ol>
+<li>将本地文件添加到暂存区</li>
+</ol>
+<div><pre><code>  <span>git</span> <span>add</span> <span>.</span> or <span>git</span> <span>add</span> 提交的文件名
+</code></pre>
+<div><span>1</span><br></div></div><ol start="2">
+<li>将本地文件提交到暂存区</li>
+</ol>
+<div><pre><code>  <span>git</span> commit -m <span>"提交的信息"</span>
+</code></pre>
+<div><span>1</span><br></div></div><ol start="3">
+<li>将本地暂存区的文件push到远程分支上</li>
+</ol>
+<div><pre><code>  git push origin 分支名称
+</code></pre>
+<div><span>1</span><br></div></div><h3 id="git-回滚"> Git 回滚</h3>
+<ol>
+<li>已经提交，没有push</li>
+</ol>
+<ul>
+<li>
+<ol>
+<li>撤销commit</li>
+</ol>
+</li>
+</ul>
+<div><pre><code>  <span>git</span> reset --soft 这里是commitID
+</code></pre>
+<div><span>1</span><br></div></div><ul>
+<li>
+<ol start="2">
+<li>撤销commit和add两个动作</li>
+</ol>
+</li>
+</ul>
+<div><pre><code>  <span>git</span> reset --mixed 这里是commitID
+</code></pre>
+<div><span>1</span><br></div></div><ol start="2">
+<li>已经提交，并且push到远程了</li>
+</ol>
+<ul>
+<li>
+<ol>
+<li>撤销并舍弃版本号之后的提交记录，(慎用，不会保存记录)</li>
+</ol>
+</li>
+</ul>
+<div><pre><code>  <span>git</span> reset --hard 这里是commitID
+</code></pre>
+<div><span>1</span><br></div></div><ul>
+<li>
+<ol start="2">
+<li>撤销 但是会保存撤销记录</li>
+</ol>
+</li>
+</ul>
+<div><pre><code>  <span>git</span> revert 这里是commitID
+</code></pre>
+<div><span>1</span><br></div></div>]]></content>
+    <author>
+      <name>Lei Xu</name>
+    </author>
+    <category term="前端"/>
+    <contributor>
+      <name>Lei Xu</name>
+    </contributor>
+    <published>2022-02-09T00:00:00.000Z</published>
+    <rights>Copyright by Lei Xu</rights>
+  </entry>
+  <entry>
     <title type="html">javascript</title>
     <id>https://peoplewholistentostories.github.io/study/study/code/javascript/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/code/javascript/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <content type="html"><![CDATA[
 <h2 id="目录"> 目录</h2>
 <p>闭包：函数定义和执行的作用域不是同一个</p>
@@ -71,14 +147,14 @@
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2022-01-17T16:50:48.000Z</published>
+    <published>2022-02-09T16:22:49.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Node.js</title>
     <id>https://peoplewholistentostories.github.io/study/study/code/node-js/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/code/node-js/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <summary type="html"><![CDATA[<p>Node.js 是一款全球使用广泛的框架，可以用在前端与后端上，拥有大量的模块。Node.js 主要以其丰富并及其容易导入的 Node.js package，以及其方便管理 npm (Node.js Package Manager)闻名。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Node.js 是一款全球使用广泛的框架，可以用在前端与后端上，拥有大量的模块。Node.js 主要以其丰富并及其容易导入的 Node.js package，以及其方便管理 npm (Node.js Package Manager)闻名。</p>
@@ -151,14 +227,14 @@
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2022-01-17T16:50:48.000Z</published>
+    <published>2022-02-09T16:22:49.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">React</title>
     <id>https://peoplewholistentostories.github.io/study/study/code/react/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/code/react/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <content type="html"><![CDATA[<h2 id="记录react项目中的问题"> 记录React项目中的问题</h2>
 <ul>
 <li><a href="./react-theme.html">React Theme主题配置</a></li>
@@ -178,7 +254,7 @@
     <title type="html">代码相关</title>
     <id>https://peoplewholistentostories.github.io/study/study/code/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/code/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <summary type="html"><![CDATA[<p>此处是 Lei Xu 存放的一些代码笔记。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>此处是 Lei Xu 存放的一些代码笔记。</p>
@@ -197,14 +273,14 @@
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2022-01-17T16:50:48.000Z</published>
+    <published>2022-02-09T16:22:49.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Vue</title>
     <id>https://peoplewholistentostories.github.io/study/study/code/vue/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/code/vue/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <content type="html"><![CDATA[<h2 id="记录vue项目中的问题"> 记录Vue项目中的问题</h2>
 ]]></content>
     <author>
@@ -221,7 +297,7 @@
     <title type="html">数组练习</title>
     <id>https://peoplewholistentostories.github.io/study/study/dailytopic/array/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/dailytopic/array/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <content type="html"><![CDATA[
 <h2 id="代码学习"> 代码学习</h2>
 <ul>
@@ -230,6 +306,7 @@
 <li><a href="./containers-of-water-are-most.html">盛最多水的容器</a></li>
 <li><a href="./Rotate-the-image.html">旋转图像</a></li>
 <li><a href="./longest-palindrome.html">最长回文字符串</a></li>
+<li><a href="./array-to-tree.html">打平的数据内容</a></li>
 </ul>
 ]]></content>
     <author>
@@ -245,7 +322,7 @@
     <title type="html">其他练习</title>
     <id>https://peoplewholistentostories.github.io/study/study/dailytopic/other/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/dailytopic/other/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <content type="html"><![CDATA[
 <h2 id="代码学习"> 代码学习</h2>
 <ul>
@@ -265,7 +342,7 @@
     <title type="html">数据结构与算法</title>
     <id>https://peoplewholistentostories.github.io/study/study/dailytopic/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/dailytopic/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <content type="html"><![CDATA[<h2 id=""> </h2>
 <div><p>介绍</p>
 <p>有一个夜晚我扔掉了所有的记忆.
@@ -281,14 +358,14 @@
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2022-01-17T16:50:48.000Z</published>
+    <published>2022-02-09T16:22:49.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">字符串练习</title>
     <id>https://peoplewholistentostories.github.io/study/study/dailytopic/string/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/dailytopic/string/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <content type="html"><![CDATA[
 <h2 id="代码学习"> 代码学习</h2>
 
@@ -306,35 +383,35 @@
     <title type="html">Home</title>
     <id>https://peoplewholistentostories.github.io/study/study/en/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/en/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <author>
       <name>Lei Xu</name>
     </author>
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2022-01-17T16:50:48.000Z</published>
+    <published>2022-02-09T16:22:49.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Home</title>
     <id>https://peoplewholistentostories.github.io/study/study/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <author>
       <name>Lei Xu</name>
     </author>
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2022-01-17T16:50:48.000Z</published>
+    <published>2022-02-09T16:22:49.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">组件禁用</title>
     <id>https://peoplewholistentostories.github.io/study/study/zh/guide/disable/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/zh/guide/disable/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <summary type="html"><![CDATA[<p>你可以通过设置页面的 Frontmatter，在页面禁用一些功能。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>你可以通过设置页面的 Frontmatter，在页面禁用一些功能。</p>
@@ -361,14 +438,14 @@
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2022-01-17T16:50:48.000Z</published>
+    <published>2022-02-09T16:22:49.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">密码加密的文章</title>
     <id>https://peoplewholistentostories.github.io/study/study/zh/guide/encrypt/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/zh/guide/encrypt/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="密码加密的文章"> 密码加密的文章</h1>
 <p>实际的文章内容。</p>
 <p>段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字。</p>
@@ -381,14 +458,14 @@
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2022-01-17T16:50:48.000Z</published>
+    <published>2022-02-09T16:22:49.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">Markdown 增强</title>
     <id>https://peoplewholistentostories.github.io/study/study/zh/guide/markdown/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/zh/guide/markdown/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <summary type="html"><![CDATA[<p><code>vuepress-theme-hope</code> 通过内置 <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">md-enhance</a>，在 Markdown 中启用了更多的语法与新功能。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p><code>vuepress-theme-hope</code> 通过内置 <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">md-enhance</a>，在 Markdown 中启用了更多的语法与新功能。</p>
@@ -852,14 +929,14 @@ $$
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2022-01-17T16:50:48.000Z</published>
+    <published>2022-02-09T16:22:49.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">页面配置</title>
     <id>https://peoplewholistentostories.github.io/study/study/zh/guide/page/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/zh/guide/page/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <content type="html"><![CDATA[<h2 id="页面信息"> 页面信息</h2>
 <p>你可以在 Markdown 的 Frontmatter 中设置页面信息。</p>
 <ul>
@@ -915,7 +992,7 @@ $$
     <title type="html">主要功能与配置演示</title>
     <id>https://peoplewholistentostories.github.io/study/study/zh/guide/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/zh/guide/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="主要功能与配置演示"> 主要功能与配置演示</h1>
 <ul>
 <li>
@@ -939,14 +1016,14 @@ $$
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2022-01-17T16:50:48.000Z</published>
+    <published>2022-02-09T16:22:49.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">项目主页</title>
     <id>https://peoplewholistentostories.github.io/study/study/zh/home/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/zh/home/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <content type="html"><![CDATA[<p>这是普通主页的案例。你可以在这里放置你的主体内容。</p>
 <p>想要使用此布局，你需要在页面 front matter 中设置 <code>home: true</code>。</p>
 <p>配置项的相关说明详见 <a href="https://vuepress-theme-hope.github.io/zh/guide/layout/home/" target="_blank" rel="noopener noreferrer">项目主页配置</a>。</p>
@@ -957,14 +1034,14 @@ $$
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2022-01-17T16:50:48.000Z</published>
+    <published>2022-02-09T16:22:49.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">自定义布局</title>
     <id>https://peoplewholistentostories.github.io/study/study/zh/layout/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/zh/layout/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <content type="html"><![CDATA[<p>您可以使用带有 Markdown 支持的插槽来自定义页面布局。</p>
 <div><p>注意</p>
 <p>此处仅仅是一个演示，你应该自行根据需求添加样式。</p>
@@ -989,14 +1066,14 @@ $$
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2022-01-17T16:50:48.000Z</published>
+    <published>2022-02-09T16:22:49.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">博客主页</title>
     <id>https://peoplewholistentostories.github.io/study/study/zh/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/zh/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <content type="html"><![CDATA[<p>这是一个博客主页。</p>
 <p>要使用此布局，您应该在页面前端设置 <code>blog: true</code> 和 <code>home: true</code>。</p>
 <p>相关配置文档请见 <a href="https://vuepress-theme-hope.github.io/zh/guide/blog/home/" target="_blank" rel="noopener noreferrer">博客主页</a></p>
@@ -1007,14 +1084,14 @@ $$
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2022-01-17T16:50:48.000Z</published>
+    <published>2022-02-09T16:22:49.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
   <entry>
     <title type="html">幻灯片页</title>
     <id>https://peoplewholistentostories.github.io/study/study/zh/slides/</id>
     <link href="https://peoplewholistentostories.github.io/study/study/zh/slides/"/>
-    <updated>2022-01-17T16:50:48.000Z</updated>
+    <updated>2022-02-09T16:22:49.000Z</updated>
     <content type="html"><![CDATA[
 <i>Not supported content</i>]]></content>
     <author>
@@ -1023,7 +1100,7 @@ $$
     <contributor>
       <name>Lei Xu</name>
     </contributor>
-    <published>2022-01-17T16:50:48.000Z</published>
+    <published>2022-02-09T16:22:49.000Z</published>
     <rights>Copyright by Lei Xu</rights>
   </entry>
 </feed>
