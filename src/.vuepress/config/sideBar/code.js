@@ -10,6 +10,7 @@ module.exports = sidebarConfig([
       "node-js/",
       "vue/",
       "react/",
+      "git/",
     ],
   },
 ]);
